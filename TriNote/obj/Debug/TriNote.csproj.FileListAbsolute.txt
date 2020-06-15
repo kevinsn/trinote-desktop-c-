@@ -1,0 +1,209 @@
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\bin\Debug\TriNote.exe.config
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\bin\Debug\TriNote.exe
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\bin\Debug\TriNote.pdb
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.FrmLogin.resources
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.exe
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.pdb
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.FrmMenu.resources
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.UCAnunciantes.resources
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.UCConfiguracoes.resources
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.UCFuncionarios.resources
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.UCUsuarios.resources
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.UCHome.resources
+c:\users\kevin\documents\visual studio 2015\Projects\TriNote\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+C:\Users\Lab\Desktop\TriNote\TriNote\bin\Debug\TriNote.exe.config
+C:\Users\Lab\Desktop\TriNote\TriNote\obj\Debug\TriNote.exe
+C:\Users\Lab\Desktop\TriNote\TriNote\obj\Debug\TriNote.pdb
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\bin\Debug\TriNote.exe.config
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.exe
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.pdb
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\bin\Debug\TriNote.exe
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\bin\Debug\TriNote.pdb
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.FrmLogin.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.FrmMenu.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.UCAnunciantes.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.UCConfiguracoes.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.UCFuncionarios.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.UCHome.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.UCUsuarios.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+C:\Users\goshiro.GOAHEAD\Desktop\TriNote\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+F:\0X800Ccc0B\TriNote\TriNote\bin\Debug\TriNote.exe.config
+F:\0X800Ccc0B\TriNote\TriNote\obj\Debug\TriNote.exe
+F:\0X800Ccc0B\TriNote\TriNote\obj\Debug\TriNote.pdb
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenu.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.UCAnunciantes.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.UCConfiguracoes.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.UCFuncionarios.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.UCHome.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.UCUsuarios.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+F:\0X800Ccc0B\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+F:\0X800Ccc0B\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenu.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.UCAnunciantes.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.UCConfiguracoes.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.UCFuncionarios.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.UCHome.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.UCUsuarios.resources
+F:\0X800Ccc0B\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenu.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCAnunciantes.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCConfiguracoes.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCFuncionarios.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCHome.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCUsuarios.resources
+E:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmCadastro.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.FrmValida.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmCadastro.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmValida.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmCadastro.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenu.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmValida.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCAnunciantes.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCConfiguracoes.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCFuncionarios.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCHome.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.UCUsuarios.resources
+C:\Users\goshiro.GOAHEAD\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\Projeto Etec\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLista.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmCadastro.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLista.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmValida.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+F:\0X800Ccc0B\trinotedesktop\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmCadastro.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLista.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmValida.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+C:\Users\Lab\Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmCadastro.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLista.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.FrmValida.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe.config
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.exe
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.pdb
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.exe
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\bin\Debug\TriNote.pdb
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmCadastro.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmChat.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLista.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmLogin.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuAdmin.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuGerencia.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuMarketing.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmMenuSuporte.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.FrmValida.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.Properties.Resources.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinotedesktop\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
