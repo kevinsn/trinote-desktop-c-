@@ -224,3 +224,4 @@ C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desk
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.FrmValida.resources
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.Properties.Resources.resources
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.FrmSplashScreen.resources

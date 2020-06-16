@@ -153,6 +153,16 @@ namespace TriNote.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LogoTexto {
+            get {
+                object obj = ResourceManager.GetObject("LogoTexto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap solicitacao {
             get {
                 object obj = ResourceManager.GetObject("solicitacao", resourceCulture);

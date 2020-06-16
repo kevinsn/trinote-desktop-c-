@@ -96,6 +96,12 @@
     <Compile Include="FrmMenuSuporte.Designer.cs">
       <DependentUpon>FrmMenuSuporte.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSplashScreen.Designer.cs">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmValida.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenuSuporte.resx">
       <DependentUpon>FrmMenuSuporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSplashScreen.resx">
+      <DependentUpon>FrmSplashScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmValida.resx">
       <DependentUpon>FrmValida.cs</DependentUpon>
@@ -171,6 +180,7 @@
     <None Include="Resources\Fundo.png" />
     <None Include="Resources\Logo.png" />
     <None Include="Resources\FundoLogo.png" />
+    <Content Include="Resources\LogoTexto.png" />
     <Content Include="Resources\usuarios.png" />
     <None Include="Resources\usuarios1.png" />
   </ItemGroup>
