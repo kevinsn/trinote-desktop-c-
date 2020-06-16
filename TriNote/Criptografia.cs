@@ -30,11 +30,8 @@ namespace TriNote
         // Método que criptografa a senha e deve ser chamado
         public string criptografar(string senha)
         {
-            MessageBox.Show(senha);
             int tamanhoSenha = senha.Length;
-            MessageBox.Show("" + tamanhoSenha);
             senhaValida = checarCaracter(senha);
-            MessageBox.Show("" + senhaValida);
             if (senhaValida == true)
             {
                 for (int i = 0; i < tamanhoSenha; i++)
@@ -43,16 +40,14 @@ namespace TriNote
                     codigoCharSenha = Encoding.ASCII.GetBytes(charSenha);
                     int a = valorByte[0] + valorByte2[0] - codigoCharSenha[0];
                     novoCharSenha = System.Text.ASCIIEncoding.Default.GetString(BitConverter.GetBytes(a));
-                    senhaCripto += charSenha.Replace(charSenha, novoCharSenha);
-
-                    MessageBox.Show("" + senhaCripto);
+                    senhaCripto += charSenha.Replace(charSenha, novoCharSenha);                    
                 }
             }
             else
             {
                 senhaCripto = "";
             }
-            MessageBox.Show("A senha criptografada: " + senhaCripto);
+
             return senhaCripto;
         }
 

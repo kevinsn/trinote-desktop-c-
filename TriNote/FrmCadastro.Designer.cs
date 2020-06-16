@@ -54,7 +54,7 @@
             this.btnCadastrar.Location = new System.Drawing.Point(126, 233);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(133, 36);
-            this.btnCadastrar.TabIndex = 17;
+            this.btnCadastrar.TabIndex = 10;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
@@ -64,7 +64,7 @@
             this.txtSenha.Location = new System.Drawing.Point(156, 165);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(95, 20);
-            this.txtSenha.TabIndex = 16;
+            this.txtSenha.TabIndex = 8;
             this.txtSenha.UseSystemPasswordChar = true;
             // 
             // txtLogin
@@ -72,14 +72,14 @@
             this.txtLogin.Location = new System.Drawing.Point(151, 128);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.Size = new System.Drawing.Size(100, 20);
-            this.txtLogin.TabIndex = 15;
+            this.txtLogin.TabIndex = 7;
             // 
             // txtNome
             // 
             this.txtNome.Location = new System.Drawing.Point(110, 21);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(180, 20);
-            this.txtNome.TabIndex = 13;
+            this.txtNome.TabIndex = 1;
             // 
             // lblSenha
             // 
@@ -114,7 +114,7 @@
             this.rbSuporte.Location = new System.Drawing.Point(18, 19);
             this.rbSuporte.Name = "rbSuporte";
             this.rbSuporte.Size = new System.Drawing.Size(62, 17);
-            this.rbSuporte.TabIndex = 18;
+            this.rbSuporte.TabIndex = 3;
             this.rbSuporte.TabStop = true;
             this.rbSuporte.Text = "Suporte";
             this.rbSuporte.UseVisualStyleBackColor = true;
@@ -126,7 +126,7 @@
             this.rbMarketing.Location = new System.Drawing.Point(96, 19);
             this.rbMarketing.Name = "rbMarketing";
             this.rbMarketing.Size = new System.Drawing.Size(72, 17);
-            this.rbMarketing.TabIndex = 19;
+            this.rbMarketing.TabIndex = 4;
             this.rbMarketing.TabStop = true;
             this.rbMarketing.Text = "Marketing";
             this.rbMarketing.UseVisualStyleBackColor = true;
@@ -138,7 +138,7 @@
             this.rbGerencia.Location = new System.Drawing.Point(184, 19);
             this.rbGerencia.Name = "rbGerencia";
             this.rbGerencia.Size = new System.Drawing.Size(68, 17);
-            this.rbGerencia.TabIndex = 20;
+            this.rbGerencia.TabIndex = 5;
             this.rbGerencia.TabStop = true;
             this.rbGerencia.Text = "Gerência";
             this.rbGerencia.UseVisualStyleBackColor = true;
@@ -153,7 +153,7 @@
             this.groupBox1.Location = new System.Drawing.Point(22, 58);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(336, 53);
-            this.groupBox1.TabIndex = 21;
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tipo de Permissão:";
             // 
@@ -163,7 +163,7 @@
             this.rbAdmin.Location = new System.Drawing.Point(268, 19);
             this.rbAdmin.Name = "rbAdmin";
             this.rbAdmin.Size = new System.Drawing.Size(54, 17);
-            this.rbAdmin.TabIndex = 21;
+            this.rbAdmin.TabIndex = 6;
             this.rbAdmin.TabStop = true;
             this.rbAdmin.Text = "Admin";
             this.rbAdmin.UseVisualStyleBackColor = true;
@@ -174,7 +174,7 @@
             this.txtConfirmarSenha.Location = new System.Drawing.Point(156, 194);
             this.txtConfirmarSenha.Name = "txtConfirmarSenha";
             this.txtConfirmarSenha.Size = new System.Drawing.Size(95, 20);
-            this.txtConfirmarSenha.TabIndex = 23;
+            this.txtConfirmarSenha.TabIndex = 9;
             this.toolTip1.SetToolTip(this.txtConfirmarSenha, "Repita a senha ");
             this.txtConfirmarSenha.UseSystemPasswordChar = true;
             // 

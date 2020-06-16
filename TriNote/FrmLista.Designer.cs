@@ -38,6 +38,7 @@
             this.txtConfirmarSenha = new System.Windows.Forms.TextBox();
             this.lblConfirmarSenha = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rbAdmin = new System.Windows.Forms.RadioButton();
             this.rbSuporte = new System.Windows.Forms.RadioButton();
             this.rbGerencia = new System.Windows.Forms.RadioButton();
             this.rbMarketing = new System.Windows.Forms.RadioButton();
@@ -51,7 +52,6 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbAtivo = new System.Windows.Forms.RadioButton();
             this.rbInativo = new System.Windows.Forms.RadioButton();
-            this.rbAdmin = new System.Windows.Forms.RadioButton();
             this.txtSenhaAtual = new System.Windows.Forms.TextBox();
             this.lblSenhaAtual = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
@@ -71,7 +71,7 @@
             this.lstFuncionarios.Location = new System.Drawing.Point(12, 49);
             this.lstFuncionarios.Name = "lstFuncionarios";
             this.lstFuncionarios.Size = new System.Drawing.Size(365, 276);
-            this.lstFuncionarios.TabIndex = 5;
+            this.lstFuncionarios.TabIndex = 15;
             this.lstFuncionarios.UseCompatibleStateImageBehavior = false;
             this.lstFuncionarios.View = System.Windows.Forms.View.Details;
             this.lstFuncionarios.DoubleClick += new System.EventHandler(this.lstFuncionarios_DoubleClick);
@@ -117,7 +117,7 @@
             this.txtConfirmarSenha.Location = new System.Drawing.Point(703, 180);
             this.txtConfirmarSenha.Name = "txtConfirmarSenha";
             this.txtConfirmarSenha.Size = new System.Drawing.Size(95, 20);
-            this.txtConfirmarSenha.TabIndex = 33;
+            this.txtConfirmarSenha.TabIndex = 10;
             this.txtConfirmarSenha.UseSystemPasswordChar = true;
             // 
             // lblConfirmarSenha
@@ -138,9 +138,20 @@
             this.groupBox1.Location = new System.Drawing.Point(416, 71);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(382, 53);
-            this.groupBox1.TabIndex = 31;
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tipo de Permissão:";
+            // 
+            // rbAdmin
+            // 
+            this.rbAdmin.AutoSize = true;
+            this.rbAdmin.Location = new System.Drawing.Point(298, 19);
+            this.rbAdmin.Name = "rbAdmin";
+            this.rbAdmin.Size = new System.Drawing.Size(54, 17);
+            this.rbAdmin.TabIndex = 6;
+            this.rbAdmin.TabStop = true;
+            this.rbAdmin.Text = "Admin";
+            this.rbAdmin.UseVisualStyleBackColor = true;
             // 
             // rbSuporte
             // 
@@ -148,7 +159,7 @@
             this.rbSuporte.Location = new System.Drawing.Point(30, 19);
             this.rbSuporte.Name = "rbSuporte";
             this.rbSuporte.Size = new System.Drawing.Size(62, 17);
-            this.rbSuporte.TabIndex = 18;
+            this.rbSuporte.TabIndex = 3;
             this.rbSuporte.TabStop = true;
             this.rbSuporte.Text = "Suporte";
             this.rbSuporte.UseVisualStyleBackColor = true;
@@ -159,7 +170,7 @@
             this.rbGerencia.Location = new System.Drawing.Point(208, 19);
             this.rbGerencia.Name = "rbGerencia";
             this.rbGerencia.Size = new System.Drawing.Size(68, 17);
-            this.rbGerencia.TabIndex = 20;
+            this.rbGerencia.TabIndex = 5;
             this.rbGerencia.TabStop = true;
             this.rbGerencia.Text = "Gerência";
             this.rbGerencia.UseVisualStyleBackColor = true;
@@ -170,7 +181,7 @@
             this.rbMarketing.Location = new System.Drawing.Point(114, 19);
             this.rbMarketing.Name = "rbMarketing";
             this.rbMarketing.Size = new System.Drawing.Size(72, 17);
-            this.rbMarketing.TabIndex = 19;
+            this.rbMarketing.TabIndex = 4;
             this.rbMarketing.TabStop = true;
             this.rbMarketing.Text = "Marketing";
             this.rbMarketing.UseVisualStyleBackColor = true;
@@ -181,7 +192,7 @@
             this.btnAlterar.Location = new System.Drawing.Point(550, 293);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(113, 32);
-            this.btnAlterar.TabIndex = 30;
+            this.btnAlterar.TabIndex = 14;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
@@ -191,7 +202,7 @@
             this.txtSenha.Location = new System.Drawing.Point(703, 147);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(95, 20);
-            this.txtSenha.TabIndex = 29;
+            this.txtSenha.TabIndex = 9;
             this.txtSenha.UseSystemPasswordChar = true;
             // 
             // txtLogin
@@ -200,14 +211,14 @@
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.ReadOnly = true;
             this.txtLogin.Size = new System.Drawing.Size(95, 20);
-            this.txtLogin.TabIndex = 28;
+            this.txtLogin.TabIndex = 7;
             // 
             // txtNome
             // 
             this.txtNome.Location = new System.Drawing.Point(529, 34);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(180, 20);
-            this.txtNome.TabIndex = 27;
+            this.txtNome.TabIndex = 1;
             // 
             // lblSenha
             // 
@@ -243,7 +254,7 @@
             this.groupBox2.Location = new System.Drawing.Point(448, 225);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(261, 53);
-            this.groupBox2.TabIndex = 32;
+            this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Status do Funcionário:";
             // 
@@ -253,7 +264,7 @@
             this.rbAtivo.Location = new System.Drawing.Point(70, 19);
             this.rbAtivo.Name = "rbAtivo";
             this.rbAtivo.Size = new System.Drawing.Size(49, 17);
-            this.rbAtivo.TabIndex = 18;
+            this.rbAtivo.TabIndex = 11;
             this.rbAtivo.TabStop = true;
             this.rbAtivo.Text = "Ativo";
             this.rbAtivo.UseVisualStyleBackColor = true;
@@ -264,28 +275,17 @@
             this.rbInativo.Location = new System.Drawing.Point(161, 19);
             this.rbInativo.Name = "rbInativo";
             this.rbInativo.Size = new System.Drawing.Size(57, 17);
-            this.rbInativo.TabIndex = 19;
+            this.rbInativo.TabIndex = 12;
             this.rbInativo.TabStop = true;
             this.rbInativo.Text = "Inativo";
             this.rbInativo.UseVisualStyleBackColor = true;
-            // 
-            // rbAdmin
-            // 
-            this.rbAdmin.AutoSize = true;
-            this.rbAdmin.Location = new System.Drawing.Point(298, 19);
-            this.rbAdmin.Name = "rbAdmin";
-            this.rbAdmin.Size = new System.Drawing.Size(54, 17);
-            this.rbAdmin.TabIndex = 21;
-            this.rbAdmin.TabStop = true;
-            this.rbAdmin.Text = "Admin";
-            this.rbAdmin.UseVisualStyleBackColor = true;
             // 
             // txtSenhaAtual
             // 
             this.txtSenhaAtual.Location = new System.Drawing.Point(465, 180);
             this.txtSenhaAtual.Name = "txtSenhaAtual";
             this.txtSenhaAtual.Size = new System.Drawing.Size(95, 20);
-            this.txtSenhaAtual.TabIndex = 35;
+            this.txtSenhaAtual.TabIndex = 8;
             this.txtSenhaAtual.UseSystemPasswordChar = true;
             // 
             // lblSenhaAtual
