@@ -17,6 +17,7 @@ namespace TriNote
         int tipoPermissao;
         int qtdLoginIgual;
         Boolean valido = false;
+        Criptografia criptografia = new Criptografia();
 
         Conexao conexao;
         SqlDataAdapter dataAdapter;
@@ -41,11 +42,14 @@ namespace TriNote
             {
                 conexao = new Conexao();
                 conexao.conectar();
+                criptografia = new Criptografia();
+                string senhaFuncionario = txtSenha.Text;
+                senhaFuncionario = criptografia.criptografar(senhaFuncionario);
                 conexao.command.CommandText = "insert into Funcionario (nomeFuncionario,permissaoFuncionario,loginFuncionario,senhaFuncionario,statusFuncionario) values (@nomeFuncionario, @permissaoFuncionario, @loginFuncionario, @senhaFuncionario, 1)";
                 conexao.command.Parameters.Add("@nomeFuncionario", SqlDbType.VarChar).Value = txtNome.Text;
                 conexao.command.Parameters.Add("@permissaoFuncionario", SqlDbType.Int).Value = tipoPermissao;
                 conexao.command.Parameters.Add("@loginFuncionario", SqlDbType.VarChar).Value = txtLogin.Text;
-                conexao.command.Parameters.Add("@senhaFuncionario", SqlDbType.VarChar).Value = txtSenha.Text;
+                conexao.command.Parameters.Add("@senhaFuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
                 conexao.command.ExecuteNonQuery();
                 conexao.fechaConexao();
 

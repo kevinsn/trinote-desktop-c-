@@ -41,9 +41,10 @@ namespace TriNote
 
                     conexao = new Conexao();
                     conexao.conectar();
-
+                    criptografia = new Criptografia();
+                    //MessageBox.Show(senhaFuncionario);
                     senhaFuncionario = criptografia.criptografar(senhaFuncionario);
-
+                    //MessageBox.Show(senhaFuncionario);
                     conexao.command.CommandText = "select * from Funcionario where loginFuncionario=@Login and senhaFuncionario=@Senha";
                     conexao.command.Parameters.Add("@Login", SqlDbType.VarChar).Value = loginFuncionario;
                     conexao.command.Parameters.Add("@Senha", SqlDbType.VarChar).Value = senhaFuncionario;
