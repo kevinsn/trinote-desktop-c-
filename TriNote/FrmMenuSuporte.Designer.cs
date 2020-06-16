@@ -59,7 +59,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(178, 382);
+            this.panel1.Size = new System.Drawing.Size(186, 382);
             this.panel1.TabIndex = 0;
             // 
             // Sair
@@ -69,7 +69,7 @@
             this.Sair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Sair.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.Sair.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Sair.Location = new System.Drawing.Point(4, 288);
+            this.Sair.Location = new System.Drawing.Point(8, 293);
             this.Sair.Name = "Sair";
             this.Sair.Size = new System.Drawing.Size(170, 80);
             this.Sair.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.btnHistorico.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHistorico.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnHistorico.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnHistorico.Location = new System.Drawing.Point(4, 197);
+            this.btnHistorico.Location = new System.Drawing.Point(8, 198);
             this.btnHistorico.Name = "btnHistorico";
             this.btnHistorico.Size = new System.Drawing.Size(170, 80);
             this.btnHistorico.TabIndex = 2;
@@ -99,7 +99,7 @@
             this.btnChamados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChamados.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnChamados.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnChamados.Location = new System.Drawing.Point(4, 106);
+            this.btnChamados.Location = new System.Drawing.Point(8, 103);
             this.btnChamados.Name = "btnChamados";
             this.btnChamados.Size = new System.Drawing.Size(170, 80);
             this.btnChamados.TabIndex = 1;
@@ -114,7 +114,7 @@
             this.btnChat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChat.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnChat.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnChat.Location = new System.Drawing.Point(4, 15);
+            this.btnChat.Location = new System.Drawing.Point(8, 8);
             this.btnChat.Name = "btnChat";
             this.btnChat.Size = new System.Drawing.Size(170, 80);
             this.btnChat.TabIndex = 0;
@@ -125,9 +125,9 @@
             // panel2
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(178, 0);
+            this.panel2.Location = new System.Drawing.Point(186, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(554, 16);
+            this.panel2.Size = new System.Drawing.Size(546, 16);
             this.panel2.TabIndex = 1;
             // 
             // lblSolicitacoes
@@ -243,7 +243,7 @@
             this.Controls.Add(this.lblUsuarios);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmMenuSuporte";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Suporte";
