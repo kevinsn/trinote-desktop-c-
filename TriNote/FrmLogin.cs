@@ -45,9 +45,11 @@ namespace TriNote
                     //MessageBox.Show(senhaFuncionario);
                     senhaFuncionario = criptografia.criptografar(senhaFuncionario);
                     //MessageBox.Show(senhaFuncionario);
-                    conexao.command.CommandText = "select * from Funcionario where loginFuncionario=@Login and senhaFuncionario=@Senha";
-                    conexao.command.Parameters.Add("@Login", SqlDbType.VarChar).Value = loginFuncionario;
-                    conexao.command.Parameters.Add("@Senha", SqlDbType.VarChar).Value = senhaFuncionario;
+                    conexao.command.CommandType = CommandType.StoredProcedure;
+                    conexao.command.CommandText = "usp_checarLoginFunc";
+                    //conexao.command.CommandText = "select * from Funcionario where loginFuncionario=@Login and senhaFuncionario=@Senha";
+                    conexao.command.Parameters.Add("@loginFuncionario", SqlDbType.VarChar).Value = loginFuncionario;
+                    conexao.command.Parameters.Add("@senhaFuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
                     conexao.command.ExecuteNonQuery();
 
                     dataAdapter = new SqlDataAdapter();

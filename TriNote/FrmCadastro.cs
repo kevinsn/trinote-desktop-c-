@@ -37,15 +37,17 @@ namespace TriNote
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             validarCampos();
+            string senhaFuncionario = txtSenha.Text;
 
             if (valido == true)
             {
                 conexao = new Conexao();
                 conexao.conectar();
                 criptografia = new Criptografia();
-                string senhaFuncionario = txtSenha.Text;
                 senhaFuncionario = criptografia.criptografar(senhaFuncionario);
-                conexao.command.CommandText = "insert into Funcionario (nomeFuncionario,permissaoFuncionario,loginFuncionario,senhaFuncionario,statusFuncionario) values (@nomeFuncionario, @permissaoFuncionario, @loginFuncionario, @senhaFuncionario, 1)";
+                conexao.command.CommandType = CommandType.StoredProcedure;
+                conexao.command.CommandText = "usp_cadastrarFunc";
+                //conexao.command.CommandText = "insert into Funcionario (nomeFuncionario,permissaoFuncionario,loginFuncionario,senhaFuncionario,statusFuncionario) values (@nomeFuncionario, @permissaoFuncionario, @loginFuncionario, @senhaFuncionario, 1)";
                 conexao.command.Parameters.Add("@nomeFuncionario", SqlDbType.VarChar).Value = txtNome.Text;
                 conexao.command.Parameters.Add("@permissaoFuncionario", SqlDbType.Int).Value = tipoPermissao;
                 conexao.command.Parameters.Add("@loginFuncionario", SqlDbType.VarChar).Value = txtLogin.Text;
@@ -57,9 +59,13 @@ namespace TriNote
 
                 this.Close();
             }
-            else
+            else if (valido == false && qtdLoginIgual == 0)
             {
                 MessageBox.Show("Um ou mais campos estão em branco.");
+            }
+            else if (valido == false && qtdLoginIgual > 0)
+            {
+                MessageBox.Show("Login existente.");
             }
 
         }
