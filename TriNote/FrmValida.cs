@@ -29,13 +29,13 @@ namespace TriNote
             {
                 this.Text = "Anúncio";
                 lblValidar.Visible = false;
-                txtDescricao.Enabled = false;
+                txtCausa.Enabled = false;
                 btnSim.Visible = false;
                 btnNao.Visible = false;
             }
 
             timer = new Timer();
-            timer.Interval = (5 * 1000);
+            timer.Interval = (5 * 500);
             timer.Tick += new EventHandler(timer_Tick);
             timer.Start();
 
@@ -64,9 +64,9 @@ namespace TriNote
         {
             // conexao.sql = "select nomeUsuario,idUsuario from Usuario";
             // conexao.sql = "select (select nomeAnunciante from Anunciante where idAnunciante = Anunciante_idAnunciante) as nomeAnunciante,idAnuncio,valor,validacao,dataTermino,titulo,descricao from anuncio where dataTermino < GETDATE() and validacao is not null";
-
+            
             conexao = new Conexao();
-            conexao.sql = "select (select nomeAnunciante from Anunciante where idAnunciante = Anunciante_idAnunciante) as nomeAnunciante,idAnuncio,valor,validacao,dataTermino,titulo,descricao from anuncio";
+            conexao.sql = "select (select nomeAnunciante from Anunciante where idAnunciante = Anunciante_idAnunciante) as nomeAnunciante,idAnuncio,valor,validacao,dataTermino,(select nomeFuncionario from Funcionario where idFuncionario = funcionarioValidou) as nomeFuncionario,titulo,descricao from anuncio";
             conexao.ler();
 
             lstAnuncios.Items.Clear();
@@ -91,6 +91,14 @@ namespace TriNote
                 
                 //lv.SubItems.Add(conexao.reader.GetBoolean(3).ToString());
                 lv.SubItems.Add(conexao.reader.GetDateTime(4).ToString());
+                if (conexao.reader.IsDBNull(5))
+                {
+                    lv.SubItems.Add("Nenhum Funcionário");
+                }
+                else
+                {
+                    lv.SubItems.Add(conexao.reader.GetString(5).ToString());
+                }                
                 lstAnuncios.Items.Add(lv);
 
             }
@@ -109,9 +117,10 @@ namespace TriNote
             // dataAdapter = new SqlDataAdapter();
             // dataSet = new DataSet();
 
-            conexao.command.CommandText = "update Anuncio set validacao = 1,descricao=@descricao where idAnuncio=@idAnuncio";
-            conexao.command.Parameters.Add("@descricao", SqlDbType.VarChar).Value = txtDescricao.Text;
+            conexao.command.CommandText = "update Anuncio set validacao = 1,causa=@causa,funcionarioValidou=@funcionarioValidou where idAnuncio=@idAnuncio";
+            conexao.command.Parameters.Add("@causa", SqlDbType.VarChar).Value = txtCausa.Text;
             conexao.command.Parameters.Add("@idAnuncio", SqlDbType.Int).Value = idAnuncio;
+            conexao.command.Parameters.Add("@funcionarioValidou", SqlDbType.Int).Value = idFuncionario;
             conexao.command.ExecuteNonQuery();
             atualizarListaAnuncios();
         }
@@ -134,6 +143,7 @@ namespace TriNote
         {
             lblTitulo.Text = "";
             txtDescricao.Text = "";
+            txtCausa.Text = "";
             idAnuncio = Convert.ToInt32(lstAnuncios.SelectedItems[0].SubItems[1].Text);
 
             conexao = new Conexao();
@@ -161,10 +171,11 @@ namespace TriNote
 
             lblTitulo.Text += dataSet.Tables[0].DefaultView[0].Row["titulo"].ToString();
             txtDescricao.Text += dataSet.Tables[0].DefaultView[0].Row["descricao"].ToString();
+            txtCausa.Text += dataSet.Tables[0].DefaultView[0].Row["causa"].ToString();
 
             // Comentado para quando não tiver imagem no banco
 
-            
+
             Byte[] data = new Byte[0];
             if (dataSet.Tables[0].DefaultView[0].Row["imagem"] != DBNull.Value)
             {
