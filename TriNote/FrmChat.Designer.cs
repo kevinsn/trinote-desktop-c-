@@ -37,6 +37,7 @@
             this.txtEnvia = new System.Windows.Forms.TextBox();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.lstEmAtendimento = new System.Windows.Forms.ListView();
+            this.motivo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lstFilaEspera
@@ -44,12 +45,13 @@
             this.lstFilaEspera.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.usuario,
             this.id,
-            this.solicitacao});
+            this.solicitacao,
+            this.motivo});
             this.lstFilaEspera.FullRowSelect = true;
             this.lstFilaEspera.GridLines = true;
             this.lstFilaEspera.Location = new System.Drawing.Point(12, 41);
             this.lstFilaEspera.Name = "lstFilaEspera";
-            this.lstFilaEspera.Size = new System.Drawing.Size(240, 415);
+            this.lstFilaEspera.Size = new System.Drawing.Size(249, 415);
             this.lstFilaEspera.TabIndex = 4;
             this.lstFilaEspera.UseCompatibleStateImageBehavior = false;
             this.lstFilaEspera.View = System.Windows.Forms.View.Details;
@@ -58,17 +60,17 @@
             // usuario
             // 
             this.usuario.Text = "Usuário";
-            this.usuario.Width = 86;
+            this.usuario.Width = 72;
             // 
             // id
             // 
             this.id.Text = "Código";
-            this.id.Width = 68;
+            this.id.Width = 48;
             // 
             // solicitacao
             // 
-            this.solicitacao.Text = "Nº Solicitação";
-            this.solicitacao.Width = 82;
+            this.solicitacao.Text = "Nº Chat";
+            this.solicitacao.Width = 50;
             // 
             // lblTitulo
             // 
@@ -84,21 +86,20 @@
             // 
             // txtRecebe
             // 
-            this.txtRecebe.Location = new System.Drawing.Point(258, 98);
+            this.txtRecebe.Location = new System.Drawing.Point(267, 98);
             this.txtRecebe.Name = "txtRecebe";
             this.txtRecebe.ReadOnly = true;
-            this.txtRecebe.Size = new System.Drawing.Size(556, 289);
+            this.txtRecebe.Size = new System.Drawing.Size(547, 289);
             this.txtRecebe.TabIndex = 6;
             this.txtRecebe.Text = "";
             // 
             // txtEnvia
             // 
-            this.txtEnvia.Location = new System.Drawing.Point(258, 393);
+            this.txtEnvia.Location = new System.Drawing.Point(267, 393);
             this.txtEnvia.Multiline = true;
             this.txtEnvia.Name = "txtEnvia";
-            this.txtEnvia.Size = new System.Drawing.Size(488, 63);
+            this.txtEnvia.Size = new System.Drawing.Size(479, 63);
             this.txtEnvia.TabIndex = 8;
-            this.txtEnvia.Text = "Oi Fulano, boa tarde! Agradeço o seu feedback, ficamos muito felizes!";
             // 
             // btnEnviar
             // 
@@ -112,13 +113,18 @@
             // 
             // lstEmAtendimento
             // 
-            this.lstEmAtendimento.Location = new System.Drawing.Point(258, 25);
+            this.lstEmAtendimento.Location = new System.Drawing.Point(267, 25);
             this.lstEmAtendimento.Name = "lstEmAtendimento";
-            this.lstEmAtendimento.Size = new System.Drawing.Size(556, 67);
+            this.lstEmAtendimento.Size = new System.Drawing.Size(547, 67);
             this.lstEmAtendimento.TabIndex = 10;
             this.lstEmAtendimento.UseCompatibleStateImageBehavior = false;
             this.lstEmAtendimento.Click += new System.EventHandler(this.lstEmAtendimento_Click);
             this.lstEmAtendimento.DoubleClick += new System.EventHandler(this.lstEmAtendimento_DoubleClick);
+            // 
+            // motivo
+            // 
+            this.motivo.Text = "Motivo";
+            this.motivo.Width = 75;
             // 
             // FrmChat
             // 
@@ -154,5 +160,6 @@
         private System.Windows.Forms.ListView lstEmAtendimento;
         private System.Windows.Forms.ColumnHeader usuario;
         private System.Windows.Forms.ColumnHeader solicitacao;
+        private System.Windows.Forms.ColumnHeader motivo;
     }
 }

@@ -104,17 +104,17 @@ namespace TriNote
 
             if (tipoChat == 1)
             {
-                conexao.sql = "select Usuario.nomeUsuario, Usuario.idUsuario, Solicitacao.idSolicitacao from Usuario,Solicitacao where Usuario.nomeUsuario = Usuario.nomeUsuario and Usuario.idUsuario = Solicitacao.idUsuario and Solicitacao.emEspera = 1";
+                conexao.sql = "select Usuario.nomeUsuario, Usuario.idUsuario, Solicitacao.idSolicitacao, Solicitacao.motivo from Usuario,Solicitacao where Usuario.nomeUsuario = Usuario.nomeUsuario and Usuario.idUsuario = Solicitacao.idUsuario and Solicitacao.emEspera = 1";
 
             }
             else if (tipoChat == 2)
             {
-                conexao.sql = "select Usuario.nomeUsuario, Usuario.idUsuario, Solicitacao.idSolicitacao from Usuario,Solicitacao where Usuario.nomeUsuario = Usuario.nomeUsuario and Usuario.idUsuario = Solicitacao.idUsuario and Solicitacao.emEspera = 0 and Solicitacao.dataHoraTerminoSol > '2000-01-01 00:00:00.000' and Solicitacao.emAberto = 1";
+                conexao.sql = "select Usuario.nomeUsuario, Usuario.idUsuario, Solicitacao.idSolicitacao, Solicitacao.motivo from Usuario,Solicitacao where Usuario.nomeUsuario = Usuario.nomeUsuario and Usuario.idUsuario = Solicitacao.idUsuario and Solicitacao.emEspera = 0 and Solicitacao.dataHoraTerminoSol > '2000-01-01 00:00:00.000' and Solicitacao.emAberto = 1";
 
             }
             else if (tipoChat == 3)
             {
-                conexao.sql = "select Usuario.nomeUsuario, Usuario.idUsuario, Solicitacao.idSolicitacao from Usuario,Solicitacao where Usuario.nomeUsuario = Usuario.nomeUsuario and Usuario.idUsuario = Solicitacao.idUsuario and Solicitacao.emEspera = 0 and Solicitacao.dataHoraTerminoSol > '2000-01-01 00:00:00.000' and Solicitacao.emAberto = 0";
+                conexao.sql = "select Usuario.nomeUsuario, Usuario.idUsuario, Solicitacao.idSolicitacao, Solicitacao.motivo from Usuario,Solicitacao where Usuario.nomeUsuario = Usuario.nomeUsuario and Usuario.idUsuario = Solicitacao.idUsuario and Solicitacao.emEspera = 0 and Solicitacao.dataHoraTerminoSol > '2000-01-01 00:00:00.000' and Solicitacao.emAberto = 0";
 
             }
 
@@ -127,6 +127,7 @@ namespace TriNote
                 ListViewItem lv = new ListViewItem(conexao.reader.GetString(0));
                 lv.SubItems.Add(conexao.reader.GetInt32(1).ToString());
                 lv.SubItems.Add(conexao.reader.GetInt32(2).ToString());
+                lv.SubItems.Add(conexao.reader.GetString(3).ToString());
                 lstFilaEspera.Items.Add(lv);
                 // MessageBox.Show(conexao.reader.GetInt32(0).ToString());
                 // MessageBox.Show(conexao.reader.GetString(1));
@@ -303,5 +304,6 @@ namespace TriNote
         {
             timer.Stop();
         }
+        
     }
 }
