@@ -102,9 +102,10 @@ namespace TriNote
             criptografia = new Criptografia();
             senhaFuncionario = txtSenhaAtual.Text;
             senhaFuncionario = criptografia.criptografar(senhaFuncionario);
-            conexao.command.CommandText = "select * from Funcionario where loginFuncionario=@Login and senhaFuncionario=@Senha";
+            //conexao.command.CommandText = "select * from Funcionario where loginFuncionario=@Login and senhaFuncionario=@Senha";
+            conexao.command.CommandText = "select * from Funcionario where loginFuncionario=@Login";
             conexao.command.Parameters.Add("@Login", SqlDbType.VarChar).Value = txtLogin.Text;
-            conexao.command.Parameters.Add("@Senha", SqlDbType.VarChar).Value = senhaFuncionario;
+            //conexao.command.Parameters.Add("@Senha", SqlDbType.VarChar).Value = senhaFuncionario;
             conexao.command.ExecuteNonQuery();
 
             dataAdapter = new SqlDataAdapter();
@@ -116,7 +117,7 @@ namespace TriNote
 
             if (dataSet.Tables[0].Rows.Count == 0)
             {
-                MessageBox.Show("Senha incorreta.");
+                MessageBox.Show("Erro.");
             }
             else
             {
@@ -132,7 +133,7 @@ namespace TriNote
                         conexao.command.CommandText = "update Funcionario set nomeFuncionario=@nomeFuncionario, permissaoFuncionario=@permissaoFuncionario ,senhafuncionario=@senhafuncionario,statusfuncionario=1 where idFuncionario=@idFuncionario";
                         conexao.command.Parameters.Add("@nomeFuncionario", SqlDbType.VarChar).Value = txtNome.Text;
                         conexao.command.Parameters.Add("@permissaoFuncionario", SqlDbType.Int).Value = tipoPermissao;
-                        conexao.command.Parameters.Add("@senhafuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
+                        //conexao.command.Parameters.Add("@senhafuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
                         conexao.command.Parameters.Add("@idFuncionario", SqlDbType.Int).Value = idFuncionario;
                     }
                     else
@@ -145,7 +146,7 @@ namespace TriNote
                         conexao.command.CommandText = "update Funcionario set nomeFuncionario=@nomeFuncionario, permissaoFuncionario=@permissaoFuncionario ,senhafuncionario=@senhafuncionario,statusfuncionario=0 where idFuncionario=@idFuncionario";
                         conexao.command.Parameters.Add("@nomeFuncionario", SqlDbType.VarChar).Value = txtNome.Text;
                         conexao.command.Parameters.Add("@permissaoFuncionario", SqlDbType.Int).Value = tipoPermissao;
-                        conexao.command.Parameters.Add("@senhafuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
+                        //conexao.command.Parameters.Add("@senhafuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
                         conexao.command.Parameters.Add("@idFuncionario", SqlDbType.Int).Value = idFuncionario;
                     }
 
@@ -166,9 +167,10 @@ namespace TriNote
                         senhaFuncionario = txtSenhaAtual.Text;
                         senhaFuncionario = criptografia.criptografar(senhaFuncionario);
                         conexao.command.CommandText = "update Funcionario set nomeFuncionario=@nomeFuncionario, permissaoFuncionario=@permissaoFuncionario ,senhafuncionario=@senhafuncionario,statusfuncionario=1 where idFuncionario=@idFuncionario";
+                        conexao.command.CommandText = "update Funcionario set nomeFuncionario=@nomeFuncionario, permissaoFuncionario=@permissaoFuncionario ,statusfuncionario=1 where idFuncionario=@idFuncionario";
                         conexao.command.Parameters.Add("@nomeFuncionario", SqlDbType.VarChar).Value = txtNome.Text;
                         conexao.command.Parameters.Add("@permissaoFuncionario", SqlDbType.Int).Value = tipoPermissao;
-                        conexao.command.Parameters.Add("@senhafuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
+                        //conexao.command.Parameters.Add("@senhafuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
                         conexao.command.Parameters.Add("@idFuncionario", SqlDbType.Int).Value = idFuncionario;
                     }
                     else
@@ -179,9 +181,10 @@ namespace TriNote
                         senhaFuncionario = txtSenhaAtual.Text;
                         senhaFuncionario = criptografia.criptografar(senhaFuncionario);
                         conexao.command.CommandText = "update Funcionario set nomeFuncionario=@nomeFuncionario, permissaoFuncionario=@permissaoFuncionario ,senhafuncionario=@senhafuncionario,statusfuncionario=0 where idFuncionario=@idFuncionario";
+                        conexao.command.CommandText = "update Funcionario set nomeFuncionario=@nomeFuncionario, permissaoFuncionario=@permissaoFuncionario ,statusfuncionario=0 where idFuncionario=@idFuncionario";
                         conexao.command.Parameters.Add("@nomeFuncionario", SqlDbType.VarChar).Value = txtNome.Text;
                         conexao.command.Parameters.Add("@permissaoFuncionario", SqlDbType.Int).Value = tipoPermissao;
-                        conexao.command.Parameters.Add("@senhafuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
+                        //conexao.command.Parameters.Add("@senhafuncionario", SqlDbType.VarChar).Value = senhaFuncionario;
                         conexao.command.Parameters.Add("@idFuncionario", SqlDbType.Int).Value = idFuncionario;
                     }
 

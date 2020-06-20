@@ -93,10 +93,10 @@ namespace TriNote
 
         private void Sair_Click(object sender, EventArgs e)
         {
-            // FrmLogin frmLogin = new FrmLogin();
-            // frmLogin.Show();
-            // this.Close();
-            Application.Exit();
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.Show();
+            this.Close();
+            //Application.Exit();
         }
     }
 }

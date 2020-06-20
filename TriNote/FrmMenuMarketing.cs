@@ -66,10 +66,10 @@ namespace TriNote
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-            //FrmLogin frmLogin = new FrmLogin();
-            //frmLogin.Show();
-            //this.Close();
-            Application.Exit();
+            FrmLogin frmLogin = new FrmLogin();
+            frmLogin.Show();
+            this.Close();
+            //Application.Exit();
         }
     }
 }

@@ -212,7 +212,6 @@ C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desk
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.pdb
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\bin\Debug\TriNote.exe
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\bin\Debug\TriNote.pdb
-C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.FrmCadastro.resources
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.FrmChat.resources
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.FrmLista.resources
@@ -225,3 +224,4 @@ C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desk
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.Properties.Resources.resources
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.csproj.GenerateResource.Cache
 C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.FrmSplashScreen.resources
+C:\Users\KSPC\Documents\Visual Studio 2015\Projects\TriNote Desktop\trinote-desktop-c-\TriNote\obj\Debug\TriNote.csprojResolveAssemblyReference.cache

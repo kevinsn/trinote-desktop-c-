@@ -70,7 +70,7 @@
             this.lstFuncionarios.GridLines = true;
             this.lstFuncionarios.Location = new System.Drawing.Point(12, 49);
             this.lstFuncionarios.Name = "lstFuncionarios";
-            this.lstFuncionarios.Size = new System.Drawing.Size(365, 276);
+            this.lstFuncionarios.Size = new System.Drawing.Size(365, 315);
             this.lstFuncionarios.TabIndex = 15;
             this.lstFuncionarios.UseCompatibleStateImageBehavior = false;
             this.lstFuncionarios.View = System.Windows.Forms.View.Details;
@@ -114,7 +114,7 @@
             // 
             // txtConfirmarSenha
             // 
-            this.txtConfirmarSenha.Location = new System.Drawing.Point(703, 180);
+            this.txtConfirmarSenha.Location = new System.Drawing.Point(972, 208);
             this.txtConfirmarSenha.Name = "txtConfirmarSenha";
             this.txtConfirmarSenha.Size = new System.Drawing.Size(95, 20);
             this.txtConfirmarSenha.TabIndex = 10;
@@ -123,11 +123,12 @@
             // lblConfirmarSenha
             // 
             this.lblConfirmarSenha.AutoSize = true;
-            this.lblConfirmarSenha.Location = new System.Drawing.Point(580, 183);
+            this.lblConfirmarSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfirmarSenha.Location = new System.Drawing.Point(830, 206);
             this.lblConfirmarSenha.Name = "lblConfirmarSenha";
-            this.lblConfirmarSenha.Size = new System.Drawing.Size(117, 13);
+            this.lblConfirmarSenha.Size = new System.Drawing.Size(133, 20);
             this.lblConfirmarSenha.TabIndex = 32;
-            this.lblConfirmarSenha.Text = "Confirmar Nova Senha:";
+            this.lblConfirmarSenha.Text = "Confirmar Senha:";
             // 
             // groupBox1
             // 
@@ -135,9 +136,10 @@
             this.groupBox1.Controls.Add(this.rbSuporte);
             this.groupBox1.Controls.Add(this.rbGerencia);
             this.groupBox1.Controls.Add(this.rbMarketing);
-            this.groupBox1.Location = new System.Drawing.Point(416, 71);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(404, 90);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(382, 53);
+            this.groupBox1.Size = new System.Drawing.Size(404, 70);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tipo de Permissão:";
@@ -145,9 +147,10 @@
             // rbAdmin
             // 
             this.rbAdmin.AutoSize = true;
-            this.rbAdmin.Location = new System.Drawing.Point(298, 19);
+            this.rbAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbAdmin.Location = new System.Drawing.Point(333, 30);
             this.rbAdmin.Name = "rbAdmin";
-            this.rbAdmin.Size = new System.Drawing.Size(54, 17);
+            this.rbAdmin.Size = new System.Drawing.Size(64, 20);
             this.rbAdmin.TabIndex = 6;
             this.rbAdmin.TabStop = true;
             this.rbAdmin.Text = "Admin";
@@ -156,9 +159,10 @@
             // rbSuporte
             // 
             this.rbSuporte.AutoSize = true;
-            this.rbSuporte.Location = new System.Drawing.Point(30, 19);
+            this.rbSuporte.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbSuporte.Location = new System.Drawing.Point(7, 30);
             this.rbSuporte.Name = "rbSuporte";
-            this.rbSuporte.Size = new System.Drawing.Size(62, 17);
+            this.rbSuporte.Size = new System.Drawing.Size(73, 20);
             this.rbSuporte.TabIndex = 3;
             this.rbSuporte.TabStop = true;
             this.rbSuporte.Text = "Suporte";
@@ -167,9 +171,10 @@
             // rbGerencia
             // 
             this.rbGerencia.AutoSize = true;
-            this.rbGerencia.Location = new System.Drawing.Point(208, 19);
+            this.rbGerencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbGerencia.Location = new System.Drawing.Point(223, 30);
             this.rbGerencia.Name = "rbGerencia";
-            this.rbGerencia.Size = new System.Drawing.Size(68, 17);
+            this.rbGerencia.Size = new System.Drawing.Size(81, 20);
             this.rbGerencia.TabIndex = 5;
             this.rbGerencia.TabStop = true;
             this.rbGerencia.Text = "Gerência";
@@ -178,9 +183,10 @@
             // rbMarketing
             // 
             this.rbMarketing.AutoSize = true;
-            this.rbMarketing.Location = new System.Drawing.Point(114, 19);
+            this.rbMarketing.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbMarketing.Location = new System.Drawing.Point(109, 30);
             this.rbMarketing.Name = "rbMarketing";
-            this.rbMarketing.Size = new System.Drawing.Size(72, 17);
+            this.rbMarketing.Size = new System.Drawing.Size(85, 20);
             this.rbMarketing.TabIndex = 4;
             this.rbMarketing.TabStop = true;
             this.rbMarketing.Text = "Marketing";
@@ -189,9 +195,9 @@
             // btnAlterar
             // 
             this.btnAlterar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
-            this.btnAlterar.Location = new System.Drawing.Point(550, 293);
+            this.btnAlterar.Location = new System.Drawing.Point(542, 318);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(113, 32);
+            this.btnAlterar.Size = new System.Drawing.Size(113, 46);
             this.btnAlterar.TabIndex = 14;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
@@ -199,7 +205,7 @@
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(703, 147);
+            this.txtSenha.Location = new System.Drawing.Point(972, 175);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(95, 20);
             this.txtSenha.TabIndex = 9;
@@ -207,43 +213,46 @@
             // 
             // txtLogin
             // 
-            this.txtLogin.Location = new System.Drawing.Point(465, 147);
+            this.txtLogin.Location = new System.Drawing.Point(542, 183);
             this.txtLogin.Name = "txtLogin";
             this.txtLogin.ReadOnly = true;
-            this.txtLogin.Size = new System.Drawing.Size(95, 20);
+            this.txtLogin.Size = new System.Drawing.Size(128, 20);
             this.txtLogin.TabIndex = 7;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(529, 34);
+            this.txtNome.Location = new System.Drawing.Point(488, 40);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(180, 20);
+            this.txtNome.Size = new System.Drawing.Size(280, 20);
             this.txtNome.TabIndex = 1;
             // 
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(626, 150);
+            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenha.Location = new System.Drawing.Point(866, 173);
             this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(70, 13);
+            this.lblSenha.Size = new System.Drawing.Size(100, 20);
             this.lblSenha.TabIndex = 26;
             this.lblSenha.Text = "Nova Senha:";
             // 
             // lblLogin
             // 
             this.lblLogin.AutoSize = true;
-            this.lblLogin.Location = new System.Drawing.Point(423, 147);
+            this.lblLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogin.Location = new System.Drawing.Point(484, 183);
             this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(36, 13);
+            this.lblLogin.Size = new System.Drawing.Size(52, 20);
             this.lblLogin.TabIndex = 25;
             this.lblLogin.Text = "Login:";
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(484, 34);
+            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.Location = new System.Drawing.Point(427, 38);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(38, 13);
+            this.lblNome.Size = new System.Drawing.Size(55, 20);
             this.lblNome.TabIndex = 24;
             this.lblNome.Text = "Nome:";
             // 
@@ -251,9 +260,10 @@
             // 
             this.groupBox2.Controls.Add(this.rbAtivo);
             this.groupBox2.Controls.Add(this.rbInativo);
-            this.groupBox2.Location = new System.Drawing.Point(448, 225);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(475, 235);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(261, 53);
+            this.groupBox2.Size = new System.Drawing.Size(253, 63);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Status do Funcionário:";
@@ -261,9 +271,10 @@
             // rbAtivo
             // 
             this.rbAtivo.AutoSize = true;
-            this.rbAtivo.Location = new System.Drawing.Point(70, 19);
+            this.rbAtivo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbAtivo.Location = new System.Drawing.Point(59, 29);
             this.rbAtivo.Name = "rbAtivo";
-            this.rbAtivo.Size = new System.Drawing.Size(49, 17);
+            this.rbAtivo.Size = new System.Drawing.Size(56, 20);
             this.rbAtivo.TabIndex = 11;
             this.rbAtivo.TabStop = true;
             this.rbAtivo.Text = "Ativo";
@@ -272,9 +283,10 @@
             // rbInativo
             // 
             this.rbInativo.AutoSize = true;
-            this.rbInativo.Location = new System.Drawing.Point(161, 19);
+            this.rbInativo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbInativo.Location = new System.Drawing.Point(150, 29);
             this.rbInativo.Name = "rbInativo";
-            this.rbInativo.Size = new System.Drawing.Size(57, 17);
+            this.rbInativo.Size = new System.Drawing.Size(65, 20);
             this.rbInativo.TabIndex = 12;
             this.rbInativo.TabStop = true;
             this.rbInativo.Text = "Inativo";
@@ -282,18 +294,19 @@
             // 
             // txtSenhaAtual
             // 
-            this.txtSenhaAtual.Location = new System.Drawing.Point(465, 180);
+            this.txtSenhaAtual.Location = new System.Drawing.Point(972, 139);
             this.txtSenhaAtual.Name = "txtSenhaAtual";
-            this.txtSenhaAtual.Size = new System.Drawing.Size(95, 20);
+            this.txtSenhaAtual.Size = new System.Drawing.Size(128, 20);
             this.txtSenhaAtual.TabIndex = 8;
             this.txtSenhaAtual.UseSystemPasswordChar = true;
             // 
             // lblSenhaAtual
             // 
             this.lblSenhaAtual.AutoSize = true;
-            this.lblSenhaAtual.Location = new System.Drawing.Point(391, 183);
+            this.lblSenhaAtual.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSenhaAtual.Location = new System.Drawing.Point(865, 139);
             this.lblSenhaAtual.Name = "lblSenhaAtual";
-            this.lblSenhaAtual.Size = new System.Drawing.Size(68, 13);
+            this.lblSenhaAtual.Size = new System.Drawing.Size(101, 20);
             this.lblSenhaAtual.TabIndex = 34;
             this.lblSenhaAtual.Text = "Senha Atual:";
             // 
@@ -301,7 +314,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(822, 337);
+            this.ClientSize = new System.Drawing.Size(830, 373);
             this.Controls.Add(this.txtSenhaAtual);
             this.Controls.Add(this.lblSenhaAtual);
             this.Controls.Add(this.groupBox2);

@@ -78,15 +78,15 @@ namespace TriNote
                 lv.SubItems.Add(conexao.reader.GetDecimal(2).ToString());
                 if (conexao.reader.GetInt32(3) == 0)
                 {
-                    lv.SubItems.Add("Enviada");
+                    lv.SubItems.Add("Não Validado");
                 }
                 else if (conexao.reader.GetInt32(3) == 1)
                 {
-                    lv.SubItems.Add("Aceita");
+                    lv.SubItems.Add("Aceito");
                 }
                 else if (conexao.reader.GetInt32(3) == 2)
                 {
-                    lv.SubItems.Add("Recusada");
+                    lv.SubItems.Add("Recusado");
                 }
                 
                 //lv.SubItems.Add(conexao.reader.GetBoolean(3).ToString());
