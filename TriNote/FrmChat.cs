@@ -24,6 +24,9 @@ namespace TriNote
         int tipoChat;
         Timer timer;
 
+        DateTime horaAtual;
+        string horaAtualSql;
+
         //tipoChat: 
         //1 = chat em tempo real
         //2 = chats em aberto (chamados)
@@ -179,8 +182,8 @@ namespace TriNote
                 conexao = new Conexao();
                 conexao.conectar();
                 txtRecebe.Text += "[" + nomeFuncionario + "]: " + txtEnvia.Text + "\n\n";
-                DateTime horaAtual = DateTime.Now;
-                string horaAtualSql = horaAtual.ToString("yyyy-MM-dd HH:mm:ss.fff");
+                horaAtual = DateTime.Now;
+                horaAtualSql = horaAtual.ToString("yyyy-MM-dd HH:mm:ss.fff");
                 conexao.command.CommandText = "insert into Mensagem (idSolicitacao,idFuncionario,isUsuario,txtMensagem,dataHoraMensagem) values (@idSolicitacao, @idFuncionario, 0, @txtMensagem, @dataHoraMensagem)";
                 conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
                 conexao.command.Parameters.Add("@idFuncionario", SqlDbType.Int).Value = idFuncionario;
@@ -262,7 +265,10 @@ namespace TriNote
         {
             nomeUsuario = lstEmAtendimento.SelectedItems[0].SubItems[0].Text;
             idUsuario = Convert.ToInt32(lstEmAtendimento.SelectedItems[0].SubItems[1].Text);
+            idSolicitacao = Convert.ToInt32(lstEmAtendimento.SelectedItems[0].SubItems[2].Text);
 
+            horaAtual = DateTime.Now;
+            horaAtualSql = horaAtual.ToString("yyyy-MM-dd HH:mm:ss.fff");
 
             if (DialogResult.Yes == MessageBox.Show("Este chat gerou chamado?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2)) 
             {
@@ -270,8 +276,11 @@ namespace TriNote
 
                 conexao = new Conexao();
                 conexao.conectar();
-                conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = getdate(),emAberto = 1 where idUsuario=@idUsuario";
+
+                conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = getdate(),emAberto = 1 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
                 conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
+                conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
+                conexao.command.Parameters.Add("@dataHoraTerminoSol", SqlDbType.DateTime).Value = horaAtualSql;
 
             }
             else
@@ -280,9 +289,11 @@ namespace TriNote
 
                 conexao = new Conexao();
                 conexao.conectar();
-                conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = getdate(),emAberto = 0 where idUsuario=@idUsuario";
+                conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = getdate(),emAberto = 0 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
                 conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
-                
+                conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
+                conexao.command.Parameters.Add("@dataHoraTerminoSol", SqlDbType.DateTime).Value = horaAtualSql;
+
             }
 
             conexao.command.ExecuteNonQuery();
