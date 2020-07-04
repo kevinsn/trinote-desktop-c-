@@ -25,7 +25,8 @@ namespace TriNote
 
         private void FrmValida_Load(object sender, EventArgs e)
         {
-            if (tipoValida == 2)
+            // Anúncios só visualizar
+            if (tipoValida == 2) 
             {
                 this.Text = "Anúncio";
                 lblValidar.Visible = false;
@@ -33,6 +34,30 @@ namespace TriNote
                 btnSim.Visible = false;
                 btnNao.Visible = false;
             }
+
+            // Anúncios lista de anúncios
+            if (tipoValida == 3)
+            {
+                this.Size = new Size(720, 715);
+                this.Text = "Lista de anúncios";
+                lblValidar.Visible = false;
+                lblTitulo.Visible = false;
+                lblDescricao.Visible = false;
+                lblCausa.Visible = false;
+
+                picAnuncio.Visible = false;                
+                txtDescricao.Visible = false;
+                txtCausa.Visible = false;
+                btnSim.Visible = false;
+                btnNao.Visible = false;
+                                
+                lstAnuncios.Location = new System.Drawing.Point(12, 12);                
+                lstAnuncios.Size = new System.Drawing.Size(680, 652);
+
+                lstAnuncios.Columns[5].Width = 0;
+            }
+
+            atualizarListaAnuncios();
 
             timer = new Timer();
             timer.Interval = (5 * 500);
@@ -53,10 +78,10 @@ namespace TriNote
         {
             // Refresh
             // MessageBox.Show("Estou no timer");
-            if (lstAnuncios.Focused == false)
-            {
-                atualizarListaAnuncios();
-            }
+            //if (lstAnuncios.Focused == false)
+            //{
+            //    atualizarListaAnuncios();
+            //}
 
         }
 

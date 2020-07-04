@@ -64,6 +64,12 @@ namespace TriNote
             frmValida.Show();
         }
 
+        private void btnAnuncios_Click(object sender, EventArgs e)
+        {
+            FrmValida frmValida = new FrmValida(idFuncionario, 3);
+            frmValida.Show();
+        }
+
         private void btnSair_Click(object sender, EventArgs e)
         {
             FrmLogin frmLogin = new FrmLogin();

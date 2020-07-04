@@ -34,6 +34,7 @@
             this.valor = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.validacao = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.dataTermino = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.nomeFuncionario = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnNao = new System.Windows.Forms.Button();
             this.btnSim = new System.Windows.Forms.Button();
             this.lblValidar = new System.Windows.Forms.Label();
@@ -43,7 +44,6 @@
             this.picAnuncio = new System.Windows.Forms.PictureBox();
             this.lblCausa = new System.Windows.Forms.Label();
             this.txtCausa = new System.Windows.Forms.TextBox();
-            this.nomeFuncionario = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.picAnuncio)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +61,7 @@
             this.lstAnuncios.Location = new System.Drawing.Point(12, 12);
             this.lstAnuncios.Name = "lstAnuncios";
             this.lstAnuncios.Size = new System.Drawing.Size(812, 133);
-            this.lstAnuncios.TabIndex = 5;
+            this.lstAnuncios.TabIndex = 4;
             this.lstAnuncios.UseCompatibleStateImageBehavior = false;
             this.lstAnuncios.View = System.Windows.Forms.View.Details;
             this.lstAnuncios.DoubleClick += new System.EventHandler(this.lstAnuncios_DoubleClick);
@@ -90,6 +90,11 @@
             // 
             this.dataTermino.Text = "Data Término";
             this.dataTermino.Width = 132;
+            // 
+            // nomeFuncionario
+            // 
+            this.nomeFuncionario.Text = "Funcionário que Validou";
+            this.nomeFuncionario.Width = 134;
             // 
             // btnNao
             // 
@@ -186,11 +191,6 @@
             this.txtCausa.Name = "txtCausa";
             this.txtCausa.Size = new System.Drawing.Size(428, 108);
             this.txtCausa.TabIndex = 26;
-            // 
-            // nomeFuncionario
-            // 
-            this.nomeFuncionario.Text = "Funcionário que Validou";
-            this.nomeFuncionario.Width = 134;
             // 
             // FrmValida
             // 

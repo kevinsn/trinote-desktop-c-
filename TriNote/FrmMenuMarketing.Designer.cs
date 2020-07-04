@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnAnuncios = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnValidar = new System.Windows.Forms.Button();
             this.lblRAnunciantes = new System.Windows.Forms.Label();
@@ -45,13 +46,29 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.btnAnuncios);
             this.panel1.Controls.Add(this.btnSair);
             this.panel1.Controls.Add(this.btnValidar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(186, 240);
+            this.panel1.Size = new System.Drawing.Size(186, 352);
             this.panel1.TabIndex = 2;
+            // 
+            // btnAnuncios
+            // 
+            this.btnAnuncios.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnAnuncios.FlatAppearance.BorderSize = 0;
+            this.btnAnuncios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnuncios.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.btnAnuncios.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnAnuncios.Location = new System.Drawing.Point(8, 128);
+            this.btnAnuncios.Name = "btnAnuncios";
+            this.btnAnuncios.Size = new System.Drawing.Size(170, 96);
+            this.btnAnuncios.TabIndex = 2;
+            this.btnAnuncios.Text = "Anunciantes";
+            this.btnAnuncios.UseVisualStyleBackColor = false;
+            this.btnAnuncios.Click += new System.EventHandler(this.btnAnuncios_Click);
             // 
             // btnSair
             // 
@@ -60,7 +77,7 @@
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
             this.btnSair.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnSair.Location = new System.Drawing.Point(8, 128);
+            this.btnSair.Location = new System.Drawing.Point(8, 240);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(170, 96);
             this.btnSair.TabIndex = 1;
@@ -87,7 +104,7 @@
             // 
             this.lblRAnunciantes.AutoSize = true;
             this.lblRAnunciantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRAnunciantes.Location = new System.Drawing.Point(293, 202);
+            this.lblRAnunciantes.Location = new System.Drawing.Point(324, 280);
             this.lblRAnunciantes.Name = "lblRAnunciantes";
             this.lblRAnunciantes.Size = new System.Drawing.Size(27, 29);
             this.lblRAnunciantes.TabIndex = 13;
@@ -98,7 +115,7 @@
             // 
             this.lblAnunciantes.AutoSize = true;
             this.lblAnunciantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnunciantes.Location = new System.Drawing.Point(232, 140);
+            this.lblAnunciantes.Location = new System.Drawing.Point(263, 218);
             this.lblAnunciantes.Name = "lblAnunciantes";
             this.lblAnunciantes.Size = new System.Drawing.Size(153, 58);
             this.lblAnunciantes.TabIndex = 12;
@@ -109,7 +126,7 @@
             // 
             this.lblRAnuncios.AutoSize = true;
             this.lblRAnuncios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRAnuncios.Location = new System.Drawing.Point(498, 202);
+            this.lblRAnuncios.Location = new System.Drawing.Point(542, 280);
             this.lblRAnuncios.Name = "lblRAnuncios";
             this.lblRAnuncios.Size = new System.Drawing.Size(27, 29);
             this.lblRAnuncios.TabIndex = 16;
@@ -120,7 +137,7 @@
             // 
             this.lblAnuncios.AutoSize = true;
             this.lblAnuncios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnuncios.Location = new System.Drawing.Point(453, 140);
+            this.lblAnuncios.Location = new System.Drawing.Point(497, 218);
             this.lblAnuncios.Name = "lblAnuncios";
             this.lblAnuncios.Size = new System.Drawing.Size(118, 58);
             this.lblAnuncios.TabIndex = 15;
@@ -130,9 +147,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TriNote.Properties.Resources.anuncios;
-            this.pictureBox1.Location = new System.Drawing.Point(452, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(475, 50);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox1.Size = new System.Drawing.Size(160, 160);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
@@ -140,9 +157,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TriNote.Properties.Resources.anunciantes;
-            this.pictureBox2.Location = new System.Drawing.Point(248, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(256, 50);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(120, 120);
+            this.pictureBox2.Size = new System.Drawing.Size(160, 160);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -151,7 +168,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 240);
+            this.ClientSize = new System.Drawing.Size(704, 352);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblRAnuncios);
             this.Controls.Add(this.lblAnuncios);
@@ -183,5 +200,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblRAnuncios;
         private System.Windows.Forms.Label lblAnuncios;
+        private System.Windows.Forms.Button btnAnuncios;
     }
 }

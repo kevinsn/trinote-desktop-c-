@@ -277,10 +277,9 @@ namespace TriNote
                 conexao = new Conexao();
                 conexao.conectar();
 
-                conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = getdate(),emAberto = 1 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
+                conexao.command.CommandText = "update Solicitacao set emAberto = 1 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
                 conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
                 conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
-                conexao.command.Parameters.Add("@dataHoraTerminoSol", SqlDbType.DateTime).Value = horaAtualSql;
 
             }
             else
