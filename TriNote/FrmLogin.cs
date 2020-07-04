@@ -29,7 +29,7 @@ namespace TriNote
             else
             {
 
-                if ((txtLogin.Text != "") || (txtSenha.Text != ""))
+                if ((txtLogin.Text != "") && (txtSenha.Text != ""))
                 {
                     String loginFuncionario = txtLogin.Text;
                     String senhaFuncionario = txtSenha.Text;
@@ -96,6 +96,10 @@ namespace TriNote
 
                         this.Hide();
                     }
+                }
+                else
+                {
+                    MessageBox.Show("Preenchimento de todos os campos exigidos.");
                 }
             }
 
