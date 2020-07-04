@@ -48,6 +48,8 @@ namespace TriNote
                 senhaCripto = "";
             }
 
+            senhaCripto = senhaCripto.TrimEnd('\0');
+
             return senhaCripto;
         }
 
