@@ -32,12 +32,12 @@
             this.usuario = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.solicitacao = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.motivo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lblTitulo = new System.Windows.Forms.Label();
             this.txtRecebe = new System.Windows.Forms.RichTextBox();
             this.txtEnvia = new System.Windows.Forms.TextBox();
             this.btnEnviar = new System.Windows.Forms.Button();
             this.lstEmAtendimento = new System.Windows.Forms.ListView();
-            this.motivo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // lstFilaEspera
@@ -71,6 +71,11 @@
             // 
             this.solicitacao.Text = "Nº Chat";
             this.solicitacao.Width = 50;
+            // 
+            // motivo
+            // 
+            this.motivo.Text = "Motivo";
+            this.motivo.Width = 75;
             // 
             // lblTitulo
             // 
@@ -121,16 +126,12 @@
             this.lstEmAtendimento.Click += new System.EventHandler(this.lstEmAtendimento_Click);
             this.lstEmAtendimento.DoubleClick += new System.EventHandler(this.lstEmAtendimento_DoubleClick);
             // 
-            // motivo
-            // 
-            this.motivo.Text = "Motivo";
-            this.motivo.Width = 75;
-            // 
             // FrmChat
             // 
             this.AcceptButton = this.btnEnviar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(826, 462);
             this.Controls.Add(this.lstEmAtendimento);
             this.Controls.Add(this.btnEnviar);

@@ -60,6 +60,8 @@ namespace TriNote
                 lblTitulo.Text = "Histórico";
             }
 
+            atualizarListaEspera(tipoChat);
+
             timer = new Timer();
             timer.Interval = (5 * 1000);
             timer.Tick += new EventHandler(timer_Tick);
@@ -223,13 +225,15 @@ namespace TriNote
 
                 if (tipoChat == 1)
                 {
-                    conexao.command.CommandText = "update Solicitacao set emEspera = 0 where idUsuario=@idUsuario";
+                    conexao.command.CommandText = "update Solicitacao set emEspera = 0 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
                     conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
+                    conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
                 }
                 else
                 {
-                    conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = null where idUsuario=@idUsuario";
+                    conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = null where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
                     conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
+                    conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
                 }
 
                 conexao.command.ExecuteNonQuery();
@@ -277,9 +281,10 @@ namespace TriNote
                 conexao = new Conexao();
                 conexao.conectar();
 
-                conexao.command.CommandText = "update Solicitacao set emAberto = 1 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
+                conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = getdate(),emAberto = 1 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
                 conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
                 conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
+                conexao.command.Parameters.Add("@dataHoraTerminoSol", SqlDbType.DateTime).Value = horaAtualSql;
 
             }
             else
