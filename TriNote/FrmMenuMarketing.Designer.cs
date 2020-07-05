@@ -68,7 +68,7 @@
             this.btnAnuncios.Name = "btnAnuncios";
             this.btnAnuncios.Size = new System.Drawing.Size(170, 96);
             this.btnAnuncios.TabIndex = 2;
-            this.btnAnuncios.Text = "Anunciantes";
+            this.btnAnuncios.Text = "Lista de Anunciantes";
             this.btnAnuncios.UseVisualStyleBackColor = false;
             this.btnAnuncios.Click += new System.EventHandler(this.btnAnuncios_Click);
             // 
@@ -98,7 +98,7 @@
             this.btnValidar.Name = "btnValidar";
             this.btnValidar.Size = new System.Drawing.Size(170, 96);
             this.btnValidar.TabIndex = 0;
-            this.btnValidar.Text = "Validar";
+            this.btnValidar.Text = "Validar Anúncios";
             this.btnValidar.UseVisualStyleBackColor = false;
             this.btnValidar.Click += new System.EventHandler(this.btnValidar_Click);
             // 
