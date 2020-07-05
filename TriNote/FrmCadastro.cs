@@ -27,6 +27,7 @@ namespace TriNote
         {
             InitializeComponent();
             idGerencia = id;
+            tipoPermissao = 0;
 
             if (permissaoFuncionario == 3)
             {
@@ -68,6 +69,8 @@ namespace TriNote
                 MessageBox.Show("Login existente.");
             }
 
+            tipoPermissao = 0;
+
         }
 
         private void validarCampos()
@@ -99,6 +102,10 @@ namespace TriNote
                 valido = false;
                 //MessageBox.Show("login igual no banco");
             }
+            else if (txtLogin.Text == txtSenha.Text) // Login não pode ser igual a senha
+            {
+                valido = false;
+            }
             else if (txtConfirmarSenha.Text == "" || string.IsNullOrWhiteSpace(txtConfirmarSenha.Text))
             {
                 valido = false;
@@ -107,10 +114,14 @@ namespace TriNote
             {
                 valido = false;
             }
-            else if (!rbSuporte.Enabled || !rbMarketing.Enabled || !rbGerencia.Enabled)
+            else if (!rbSuporte.Enabled || !rbMarketing.Enabled || !rbGerencia.Enabled || !rbAdmin.Enabled)
             {
                 valido = false;
             }
+            else if (tipoPermissao == 0)
+            {
+                valido = false;
+            }            
             else
             {
                 valido = true;
