@@ -318,7 +318,20 @@ namespace TriNote
         private void FrmChat_FormClosed(object sender, FormClosedEventArgs e)
         {
             timer.Stop();
+
+            horaAtual = DateTime.Now;
+            horaAtualSql = horaAtual.ToString("yyyy-MM-dd HH:mm:ss.fff");
+
+            if (tipoChat == 1)
+            {
+                conexao = new Conexao();
+                conexao.conectar();
+                conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = @dataHoraTerminoSol where (dataHoraTerminoSol < '2000-01-01 00:00:00.000' or dataHoraTerminoSol = null) and emAberto = 1";
+                conexao.command.Parameters.Add("@dataHoraTerminoSol", SqlDbType.DateTime).Value = horaAtualSql;
+                conexao.command.ExecuteNonQuery();
+                conexao.fechaConexao();
+            }
+
         }
-        
     }
 }

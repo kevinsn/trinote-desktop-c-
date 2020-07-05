@@ -89,7 +89,7 @@
             this.btnCadastro.Name = "btnCadastro";
             this.btnCadastro.Size = new System.Drawing.Size(170, 80);
             this.btnCadastro.TabIndex = 5;
-            this.btnCadastro.Text = "Cadastrar";
+            this.btnCadastro.Text = "Cadastrar Funcionário";
             this.btnCadastro.UseVisualStyleBackColor = false;
             this.btnCadastro.Click += new System.EventHandler(this.btnCadastro_Click);
             // 

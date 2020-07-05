@@ -39,7 +39,7 @@ namespace TriNote
             if (tipoValida == 3)
             {
                 this.Size = new Size(720, 715);
-                this.Text = "Lista de anúncios";
+                this.Text = "Lista de Anúncios";
                 lblValidar.Visible = false;
                 lblTitulo.Visible = false;
                 lblDescricao.Visible = false;
@@ -59,10 +59,10 @@ namespace TriNote
 
             atualizarListaAnuncios();
 
-            timer = new Timer();
-            timer.Interval = (5 * 500);
-            timer.Tick += new EventHandler(timer_Tick);
-            timer.Start();
+            //timer = new Timer();
+            //timer.Interval = (5 * 500);
+            //timer.Tick += new EventHandler(timer_Tick);
+            //timer.Start();
 
         }
 
@@ -158,8 +158,10 @@ namespace TriNote
             // dataAdapter = new SqlDataAdapter();
             // dataSet = new DataSet();
 
-            conexao.command.CommandText = "update Anuncio set validacao = 2 where idAnuncio=@idAnuncio";
+            conexao.command.CommandText = "update Anuncio set validacao = 1,causa=@causa,funcionarioValidou=@funcionarioValidou where idAnuncio=@idAnuncio";
+            conexao.command.Parameters.Add("@causa", SqlDbType.VarChar).Value = txtCausa.Text;
             conexao.command.Parameters.Add("@idAnuncio", SqlDbType.Int).Value = idAnuncio;
+            conexao.command.Parameters.Add("@funcionarioValidou", SqlDbType.Int).Value = idFuncionario;
             conexao.command.ExecuteNonQuery();
             atualizarListaAnuncios();
         }
@@ -213,7 +215,7 @@ namespace TriNote
 
         private void FrmValida_FormClosed(object sender, FormClosedEventArgs e)
         {
-            timer.Stop();
+            //timer.Stop();
         }
     }
 }
