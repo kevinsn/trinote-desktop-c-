@@ -52,6 +52,7 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.lblRAnuncios = new System.Windows.Forms.Label();
             this.lblAnuncios = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -59,14 +60,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::TriNote.Properties.Resources.funcionarios;
-            this.pictureBox3.Location = new System.Drawing.Point(620, 239);
+            this.pictureBox3.Location = new System.Drawing.Point(641, 282);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(73, 80);
+            this.pictureBox3.Size = new System.Drawing.Size(90, 90);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 25;
             this.pictureBox3.TabStop = false;
@@ -75,7 +77,7 @@
             // 
             this.lblRFuncionarios.AutoSize = true;
             this.lblRFuncionarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRFuncionarios.Location = new System.Drawing.Point(643, 392);
+            this.lblRFuncionarios.Location = new System.Drawing.Point(773, 343);
             this.lblRFuncionarios.Name = "lblRFuncionarios";
             this.lblRFuncionarios.Size = new System.Drawing.Size(27, 29);
             this.lblRFuncionarios.TabIndex = 24;
@@ -86,12 +88,11 @@
             // 
             this.lblFuncionarios.AutoSize = true;
             this.lblFuncionarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblFuncionarios.Location = new System.Drawing.Point(610, 340);
+            this.lblFuncionarios.Location = new System.Drawing.Point(737, 291);
             this.lblFuncionarios.Name = "lblFuncionarios";
             this.lblFuncionarios.Size = new System.Drawing.Size(100, 40);
             this.lblFuncionarios.TabIndex = 23;
             this.lblFuncionarios.Text = "Nº de \r\nFuncionários";
-            this.lblFuncionarios.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel1
             // 
@@ -186,18 +187,17 @@
             // 
             this.lblUsuarios.AutoSize = true;
             this.lblUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuarios.Location = new System.Drawing.Point(238, 129);
+            this.lblUsuarios.Location = new System.Drawing.Point(301, 136);
             this.lblUsuarios.Name = "lblUsuarios";
             this.lblUsuarios.Size = new System.Drawing.Size(72, 40);
             this.lblUsuarios.TabIndex = 26;
             this.lblUsuarios.Text = "Nº de\r\nUsuários";
-            this.lblUsuarios.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblRUsuarios
             // 
             this.lblRUsuarios.AutoSize = true;
             this.lblRUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRUsuarios.Location = new System.Drawing.Point(261, 179);
+            this.lblRUsuarios.Location = new System.Drawing.Point(334, 187);
             this.lblRUsuarios.Name = "lblRUsuarios";
             this.lblRUsuarios.Size = new System.Drawing.Size(27, 29);
             this.lblRUsuarios.TabIndex = 27;
@@ -207,9 +207,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TriNote.Properties.Resources.usuarios;
-            this.pictureBox1.Location = new System.Drawing.Point(237, 35);
+            this.pictureBox1.Location = new System.Drawing.Point(205, 127);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(73, 80);
+            this.pictureBox1.Size = new System.Drawing.Size(90, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
@@ -218,18 +218,17 @@
             // 
             this.lblAnunciantes.AutoSize = true;
             this.lblAnunciantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblAnunciantes.Location = new System.Drawing.Point(224, 340);
+            this.lblAnunciantes.Location = new System.Drawing.Point(519, 291);
             this.lblAnunciantes.Name = "lblAnunciantes";
             this.lblAnunciantes.Size = new System.Drawing.Size(98, 40);
             this.lblAnunciantes.TabIndex = 29;
             this.lblAnunciantes.Text = "Nº de \r\nAnunciantes";
-            this.lblAnunciantes.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblRAnunciantes
             // 
             this.lblRAnunciantes.AutoSize = true;
             this.lblRAnunciantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRAnunciantes.Location = new System.Drawing.Point(261, 392);
+            this.lblRAnunciantes.Location = new System.Drawing.Point(555, 342);
             this.lblRAnunciantes.Name = "lblRAnunciantes";
             this.lblRAnunciantes.Size = new System.Drawing.Size(27, 29);
             this.lblRAnunciantes.TabIndex = 30;
@@ -239,9 +238,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TriNote.Properties.Resources.anunciantes;
-            this.pictureBox2.Location = new System.Drawing.Point(237, 239);
+            this.pictureBox2.Location = new System.Drawing.Point(423, 282);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(73, 80);
+            this.pictureBox2.Size = new System.Drawing.Size(90, 90);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 31;
             this.pictureBox2.TabStop = false;
@@ -249,9 +248,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::TriNote.Properties.Resources.solicitacao;
-            this.pictureBox4.Location = new System.Drawing.Point(620, 35);
+            this.pictureBox4.Location = new System.Drawing.Point(641, 127);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(73, 80);
+            this.pictureBox4.Size = new System.Drawing.Size(90, 90);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 37;
             this.pictureBox4.TabStop = false;
@@ -259,9 +258,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::TriNote.Properties.Resources.anotacao;
-            this.pictureBox5.Location = new System.Drawing.Point(425, 35);
+            this.pictureBox5.Location = new System.Drawing.Point(423, 127);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(73, 80);
+            this.pictureBox5.Size = new System.Drawing.Size(90, 90);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 36;
             this.pictureBox5.TabStop = false;
@@ -270,7 +269,7 @@
             // 
             this.lblRSolicitacoes.AutoSize = true;
             this.lblRSolicitacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRSolicitacoes.Location = new System.Drawing.Point(643, 179);
+            this.lblRSolicitacoes.Location = new System.Drawing.Point(773, 187);
             this.lblRSolicitacoes.Name = "lblRSolicitacoes";
             this.lblRSolicitacoes.Size = new System.Drawing.Size(27, 29);
             this.lblRSolicitacoes.TabIndex = 35;
@@ -281,7 +280,7 @@
             // 
             this.lblRAnotacoes.AutoSize = true;
             this.lblRAnotacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRAnotacoes.Location = new System.Drawing.Point(449, 179);
+            this.lblRAnotacoes.Location = new System.Drawing.Point(552, 188);
             this.lblRAnotacoes.Name = "lblRAnotacoes";
             this.lblRAnotacoes.Size = new System.Drawing.Size(27, 29);
             this.lblRAnotacoes.TabIndex = 34;
@@ -292,30 +291,28 @@
             // 
             this.lblSolicitacoes.AutoSize = true;
             this.lblSolicitacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblSolicitacoes.Location = new System.Drawing.Point(610, 129);
+            this.lblSolicitacoes.Location = new System.Drawing.Point(737, 136);
             this.lblSolicitacoes.Name = "lblSolicitacoes";
             this.lblSolicitacoes.Size = new System.Drawing.Size(94, 40);
             this.lblSolicitacoes.TabIndex = 33;
             this.lblSolicitacoes.Text = "Nº de \r\nSolicitações";
-            this.lblSolicitacoes.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // lblAnotacoes
             // 
             this.lblAnotacoes.AutoSize = true;
             this.lblAnotacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblAnotacoes.Location = new System.Drawing.Point(421, 129);
+            this.lblAnotacoes.Location = new System.Drawing.Point(519, 136);
             this.lblAnotacoes.Name = "lblAnotacoes";
             this.lblAnotacoes.Size = new System.Drawing.Size(86, 40);
             this.lblAnotacoes.TabIndex = 32;
             this.lblAnotacoes.Text = "Nº de \r\nAnotações";
-            this.lblAnotacoes.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox6
             // 
             this.pictureBox6.Image = global::TriNote.Properties.Resources.anuncios;
-            this.pictureBox6.Location = new System.Drawing.Point(425, 239);
+            this.pictureBox6.Location = new System.Drawing.Point(205, 283);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(73, 80);
+            this.pictureBox6.Size = new System.Drawing.Size(90, 90);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 40;
             this.pictureBox6.TabStop = false;
@@ -324,7 +321,7 @@
             // 
             this.lblRAnuncios.AutoSize = true;
             this.lblRAnuncios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRAnuncios.Location = new System.Drawing.Point(449, 392);
+            this.lblRAnuncios.Location = new System.Drawing.Point(337, 343);
             this.lblRAnuncios.Name = "lblRAnuncios";
             this.lblRAnuncios.Size = new System.Drawing.Size(27, 29);
             this.lblRAnuncios.TabIndex = 39;
@@ -335,18 +332,27 @@
             // 
             this.lblAnuncios.AutoSize = true;
             this.lblAnuncios.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblAnuncios.Location = new System.Drawing.Point(426, 340);
+            this.lblAnuncios.Location = new System.Drawing.Point(304, 292);
             this.lblAnuncios.Name = "lblAnuncios";
             this.lblAnuncios.Size = new System.Drawing.Size(75, 40);
             this.lblAnuncios.TabIndex = 38;
             this.lblAnuncios.Text = "Nº de \r\nAnúncios";
-            this.lblAnuncios.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::TriNote.Properties.Resources.LogoTexto;
+            this.pictureBox7.Location = new System.Drawing.Point(322, 12);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(392, 80);
+            this.pictureBox7.TabIndex = 41;
+            this.pictureBox7.TabStop = false;
             // 
             // FrmMenuAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(751, 456);
+            this.ClientSize = new System.Drawing.Size(859, 456);
+            this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.lblRAnuncios);
             this.Controls.Add(this.lblAnuncios);
@@ -378,6 +384,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -408,5 +415,6 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label lblRAnuncios;
         private System.Windows.Forms.Label lblAnuncios;
+        private System.Windows.Forms.PictureBox pictureBox7;
     }
 }

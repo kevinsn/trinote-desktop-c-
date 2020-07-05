@@ -40,10 +40,12 @@
             this.lblRSolicitacoes = new System.Windows.Forms.Label();
             this.lblRAnotacoes = new System.Windows.Forms.Label();
             this.lblRUsuarios = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -134,7 +136,7 @@
             // 
             this.lblSolicitacoes.AutoSize = true;
             this.lblSolicitacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSolicitacoes.Location = new System.Drawing.Point(568, 204);
+            this.lblSolicitacoes.Location = new System.Drawing.Point(566, 240);
             this.lblSolicitacoes.Name = "lblSolicitacoes";
             this.lblSolicitacoes.Size = new System.Drawing.Size(150, 58);
             this.lblSolicitacoes.TabIndex = 6;
@@ -145,7 +147,7 @@
             // 
             this.lblAnotacoes.AutoSize = true;
             this.lblAnotacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnotacoes.Location = new System.Drawing.Point(392, 204);
+            this.lblAnotacoes.Location = new System.Drawing.Point(390, 240);
             this.lblAnotacoes.Name = "lblAnotacoes";
             this.lblAnotacoes.Size = new System.Drawing.Size(133, 58);
             this.lblAnotacoes.TabIndex = 5;
@@ -156,7 +158,7 @@
             // 
             this.lblUsuarios.AutoSize = true;
             this.lblUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
-            this.lblUsuarios.Location = new System.Drawing.Point(217, 204);
+            this.lblUsuarios.Location = new System.Drawing.Point(215, 240);
             this.lblUsuarios.Name = "lblUsuarios";
             this.lblUsuarios.Size = new System.Drawing.Size(113, 58);
             this.lblUsuarios.TabIndex = 4;
@@ -167,7 +169,7 @@
             // 
             this.lblRSolicitacoes.AutoSize = true;
             this.lblRSolicitacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRSolicitacoes.Location = new System.Drawing.Point(630, 273);
+            this.lblRSolicitacoes.Location = new System.Drawing.Point(628, 309);
             this.lblRSolicitacoes.Name = "lblRSolicitacoes";
             this.lblRSolicitacoes.Size = new System.Drawing.Size(27, 29);
             this.lblRSolicitacoes.TabIndex = 9;
@@ -178,7 +180,7 @@
             // 
             this.lblRAnotacoes.AutoSize = true;
             this.lblRAnotacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRAnotacoes.Location = new System.Drawing.Point(445, 273);
+            this.lblRAnotacoes.Location = new System.Drawing.Point(443, 309);
             this.lblRAnotacoes.Name = "lblRAnotacoes";
             this.lblRAnotacoes.Size = new System.Drawing.Size(27, 29);
             this.lblRAnotacoes.TabIndex = 8;
@@ -189,17 +191,26 @@
             // 
             this.lblRUsuarios.AutoSize = true;
             this.lblRUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRUsuarios.Location = new System.Drawing.Point(260, 273);
+            this.lblRUsuarios.Location = new System.Drawing.Point(258, 309);
             this.lblRUsuarios.Name = "lblRUsuarios";
             this.lblRUsuarios.Size = new System.Drawing.Size(27, 29);
             this.lblRUsuarios.TabIndex = 7;
             this.lblRUsuarios.Text = "0";
             this.lblRUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::TriNote.Properties.Resources.LogoTexto;
+            this.pictureBox4.Location = new System.Drawing.Point(263, 22);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(392, 80);
+            this.pictureBox4.TabIndex = 13;
+            this.pictureBox4.TabStop = false;
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::TriNote.Properties.Resources.solicitacao;
-            this.pictureBox3.Location = new System.Drawing.Point(583, 76);
+            this.pictureBox3.Location = new System.Drawing.Point(581, 112);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(120, 120);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -209,7 +220,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::TriNote.Properties.Resources.anotacao;
-            this.pictureBox2.Location = new System.Drawing.Point(398, 76);
+            this.pictureBox2.Location = new System.Drawing.Point(396, 112);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(120, 120);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -219,7 +230,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::TriNote.Properties.Resources.usuarios;
-            this.pictureBox1.Location = new System.Drawing.Point(213, 76);
+            this.pictureBox1.Location = new System.Drawing.Point(211, 112);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(120, 120);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -232,6 +243,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(732, 382);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -249,6 +261,7 @@
             this.Text = "Suporte";
             this.Load += new System.EventHandler(this.FrmMenuSuporte_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -274,5 +287,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

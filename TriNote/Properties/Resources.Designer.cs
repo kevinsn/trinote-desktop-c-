@@ -63,26 +63,6 @@ namespace TriNote.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap a3_2 {
-            get {
-                object obj = ResourceManager.GetObject("a3-2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap a3_21 {
-            get {
-                object obj = ResourceManager.GetObject("a3-21", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap anotacao {
             get {
                 object obj = ResourceManager.GetObject("anotacao", resourceCulture);

@@ -164,12 +164,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\a3-2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\a3-2.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\solicitacao.png" />
     <None Include="Resources\anuncios.png" />
     <None Include="Resources\anotacao.png" />
