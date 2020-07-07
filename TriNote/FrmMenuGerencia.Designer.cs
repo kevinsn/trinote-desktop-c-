@@ -127,6 +127,7 @@
             // 
             this.lblRFuncionarios.AutoSize = true;
             this.lblRFuncionarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblRFuncionarios.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblRFuncionarios.Location = new System.Drawing.Point(616, 298);
             this.lblRFuncionarios.Name = "lblRFuncionarios";
             this.lblRFuncionarios.Size = new System.Drawing.Size(26, 29);
@@ -138,6 +139,7 @@
             // 
             this.lblFuncionarios.AutoSize = true;
             this.lblFuncionarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblFuncionarios.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblFuncionarios.Location = new System.Drawing.Point(550, 229);
             this.lblFuncionarios.Name = "lblFuncionarios";
             this.lblFuncionarios.Size = new System.Drawing.Size(152, 58);
@@ -149,6 +151,7 @@
             // 
             this.lblRUsuarios.AutoSize = true;
             this.lblRUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblRUsuarios.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblRUsuarios.Location = new System.Drawing.Point(271, 298);
             this.lblRUsuarios.Name = "lblRUsuarios";
             this.lblRUsuarios.Size = new System.Drawing.Size(26, 29);
@@ -160,6 +163,7 @@
             // 
             this.lblUsuarios.AutoSize = true;
             this.lblUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblUsuarios.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblUsuarios.Location = new System.Drawing.Point(228, 229);
             this.lblUsuarios.Name = "lblUsuarios";
             this.lblUsuarios.Size = new System.Drawing.Size(108, 58);
@@ -171,6 +175,7 @@
             // 
             this.lblRAnunciantes.AutoSize = true;
             this.lblRAnunciantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblRAnunciantes.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblRAnunciantes.Location = new System.Drawing.Point(445, 298);
             this.lblRAnunciantes.Name = "lblRAnunciantes";
             this.lblRAnunciantes.Size = new System.Drawing.Size(26, 29);
@@ -182,6 +187,7 @@
             // 
             this.lblAnunciantes.AutoSize = true;
             this.lblAnunciantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblAnunciantes.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblAnunciantes.Location = new System.Drawing.Point(382, 229);
             this.lblAnunciantes.Name = "lblAnunciantes";
             this.lblAnunciantes.Size = new System.Drawing.Size(143, 58);
@@ -232,6 +238,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(255)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(738, 368);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);

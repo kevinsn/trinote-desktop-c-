@@ -36,13 +36,13 @@
             this.lblAnunciantes = new System.Windows.Forms.Label();
             this.lblRAnuncios = new System.Windows.Forms.Label();
             this.lblAnuncios = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -106,6 +106,7 @@
             // 
             this.lblRAnunciantes.AutoSize = true;
             this.lblRAnunciantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblRAnunciantes.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblRAnunciantes.Location = new System.Drawing.Point(317, 286);
             this.lblRAnunciantes.Name = "lblRAnunciantes";
             this.lblRAnunciantes.Size = new System.Drawing.Size(26, 29);
@@ -117,6 +118,7 @@
             // 
             this.lblAnunciantes.AutoSize = true;
             this.lblAnunciantes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblAnunciantes.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblAnunciantes.Location = new System.Drawing.Point(256, 224);
             this.lblAnunciantes.Name = "lblAnunciantes";
             this.lblAnunciantes.Size = new System.Drawing.Size(143, 58);
@@ -128,6 +130,7 @@
             // 
             this.lblRAnuncios.AutoSize = true;
             this.lblRAnuncios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblRAnuncios.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblRAnuncios.Location = new System.Drawing.Point(536, 286);
             this.lblRAnuncios.Name = "lblRAnuncios";
             this.lblRAnuncios.Size = new System.Drawing.Size(26, 29);
@@ -139,12 +142,22 @@
             // 
             this.lblAnuncios.AutoSize = true;
             this.lblAnuncios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
+            this.lblAnuncios.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblAnuncios.Location = new System.Drawing.Point(491, 224);
             this.lblAnuncios.Name = "lblAnuncios";
             this.lblAnuncios.Size = new System.Drawing.Size(111, 58);
             this.lblAnuncios.TabIndex = 15;
             this.lblAnuncios.Text = "Nº de \r\nAnúncios";
             this.lblAnuncios.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::TriNote.Properties.Resources.LogoTexto;
+            this.pictureBox4.Location = new System.Drawing.Point(234, 12);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(392, 80);
+            this.pictureBox4.TabIndex = 18;
+            this.pictureBox4.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -166,19 +179,11 @@
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::TriNote.Properties.Resources.LogoTexto;
-            this.pictureBox4.Location = new System.Drawing.Point(234, 12);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(392, 80);
-            this.pictureBox4.TabIndex = 18;
-            this.pictureBox4.TabStop = false;
-            // 
             // FrmMenuMarketing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(255)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(685, 352);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
@@ -194,9 +199,9 @@
             this.Text = "Marketing";
             this.Load += new System.EventHandler(this.FrmMenuMarketing_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

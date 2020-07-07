@@ -136,6 +136,7 @@
             // 
             this.lblSolicitacoes.AutoSize = true;
             this.lblSolicitacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSolicitacoes.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblSolicitacoes.Location = new System.Drawing.Point(566, 240);
             this.lblSolicitacoes.Name = "lblSolicitacoes";
             this.lblSolicitacoes.Size = new System.Drawing.Size(150, 58);
@@ -147,6 +148,7 @@
             // 
             this.lblAnotacoes.AutoSize = true;
             this.lblAnotacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnotacoes.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblAnotacoes.Location = new System.Drawing.Point(390, 240);
             this.lblAnotacoes.Name = "lblAnotacoes";
             this.lblAnotacoes.Size = new System.Drawing.Size(133, 58);
@@ -158,6 +160,7 @@
             // 
             this.lblUsuarios.AutoSize = true;
             this.lblUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
+            this.lblUsuarios.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblUsuarios.Location = new System.Drawing.Point(215, 240);
             this.lblUsuarios.Name = "lblUsuarios";
             this.lblUsuarios.Size = new System.Drawing.Size(113, 58);
@@ -169,6 +172,7 @@
             // 
             this.lblRSolicitacoes.AutoSize = true;
             this.lblRSolicitacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRSolicitacoes.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblRSolicitacoes.Location = new System.Drawing.Point(628, 309);
             this.lblRSolicitacoes.Name = "lblRSolicitacoes";
             this.lblRSolicitacoes.Size = new System.Drawing.Size(27, 29);
@@ -180,6 +184,7 @@
             // 
             this.lblRAnotacoes.AutoSize = true;
             this.lblRAnotacoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRAnotacoes.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblRAnotacoes.Location = new System.Drawing.Point(443, 309);
             this.lblRAnotacoes.Name = "lblRAnotacoes";
             this.lblRAnotacoes.Size = new System.Drawing.Size(27, 29);
@@ -191,6 +196,7 @@
             // 
             this.lblRUsuarios.AutoSize = true;
             this.lblRUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRUsuarios.ForeColor = System.Drawing.Color.DarkBlue;
             this.lblRUsuarios.Location = new System.Drawing.Point(258, 309);
             this.lblRUsuarios.Name = "lblRUsuarios";
             this.lblRUsuarios.Size = new System.Drawing.Size(27, 29);
@@ -241,7 +247,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(255)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(732, 382);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
