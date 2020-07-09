@@ -136,34 +136,40 @@ namespace TriNote
 
         private void btnSim_Click(object sender, EventArgs e)
         {
-            conexao = new Conexao();
-            conexao.conectar();
+            if (idAnuncio != 0)
+            {
+                conexao = new Conexao();
+                conexao.conectar();
 
-            // dataAdapter = new SqlDataAdapter();
-            // dataSet = new DataSet();
+                // dataAdapter = new SqlDataAdapter();
+                // dataSet = new DataSet();
 
-            conexao.command.CommandText = "update Anuncio set validacao = 1,causa=@causa,funcionarioValidou=@funcionarioValidou where idAnuncio=@idAnuncio";
-            conexao.command.Parameters.Add("@causa", SqlDbType.VarChar).Value = txtCausa.Text;
-            conexao.command.Parameters.Add("@idAnuncio", SqlDbType.Int).Value = idAnuncio;
-            conexao.command.Parameters.Add("@funcionarioValidou", SqlDbType.Int).Value = idFuncionario;
-            conexao.command.ExecuteNonQuery();
-            atualizarListaAnuncios();
+                conexao.command.CommandText = "update Anuncio set validacao = 1,causa=@causa,funcionarioValidou=@funcionarioValidou where idAnuncio=@idAnuncio";
+                conexao.command.Parameters.Add("@causa", SqlDbType.VarChar).Value = txtCausa.Text;
+                conexao.command.Parameters.Add("@idAnuncio", SqlDbType.Int).Value = idAnuncio;
+                conexao.command.Parameters.Add("@funcionarioValidou", SqlDbType.Int).Value = idFuncionario;
+                conexao.command.ExecuteNonQuery();
+                atualizarListaAnuncios();
+            }
         }
 
         private void btnNao_Click(object sender, EventArgs e)
         {
-            conexao = new Conexao();
-            conexao.conectar();
+            if (idAnuncio != 0)
+            {
+                conexao = new Conexao();
+                conexao.conectar();
 
-            // dataAdapter = new SqlDataAdapter();
-            // dataSet = new DataSet();
+                // dataAdapter = new SqlDataAdapter();
+                // dataSet = new DataSet();
 
-            conexao.command.CommandText = "update Anuncio set validacao = 1,causa=@causa,funcionarioValidou=@funcionarioValidou where idAnuncio=@idAnuncio";
-            conexao.command.Parameters.Add("@causa", SqlDbType.VarChar).Value = txtCausa.Text;
-            conexao.command.Parameters.Add("@idAnuncio", SqlDbType.Int).Value = idAnuncio;
-            conexao.command.Parameters.Add("@funcionarioValidou", SqlDbType.Int).Value = idFuncionario;
-            conexao.command.ExecuteNonQuery();
-            atualizarListaAnuncios();
+                conexao.command.CommandText = "update Anuncio set validacao = 2,causa=@causa,funcionarioValidou=@funcionarioValidou where idAnuncio=@idAnuncio";
+                conexao.command.Parameters.Add("@causa", SqlDbType.VarChar).Value = txtCausa.Text;
+                conexao.command.Parameters.Add("@idAnuncio", SqlDbType.Int).Value = idAnuncio;
+                conexao.command.Parameters.Add("@funcionarioValidou", SqlDbType.Int).Value = idFuncionario;
+                conexao.command.ExecuteNonQuery();
+                atualizarListaAnuncios();
+            }
         }
 
         private void lstAnuncios_DoubleClick(object sender, EventArgs e)
@@ -171,6 +177,7 @@ namespace TriNote
             lblTitulo.Text = "";
             txtDescricao.Text = "";
             txtCausa.Text = "";
+
             idAnuncio = Convert.ToInt32(lstAnuncios.SelectedItems[0].SubItems[1].Text);
 
             conexao = new Conexao();
