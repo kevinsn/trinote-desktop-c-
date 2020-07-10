@@ -169,7 +169,7 @@ namespace TriNote
                 else
                     txtRecebe.Text += "[" + nomeFuncionario + "]: " + dataSet.Tables[0].Rows[x]["txtMensagem"].ToString() + "\n\n";
             }
-            
+
             txtRecebe.SelectionStart = txtRecebe.TextLength;
             txtRecebe.ScrollToCaret();
 
@@ -208,7 +208,7 @@ namespace TriNote
                 conexao = new Conexao();
                 conexao.conectar();
                 conexao.command.CommandText = "select * from Usuario where idUsuario=@idUsuario";
-                conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario; 
+                conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
                 conexao.command.ExecuteNonQuery();
                 conexao.fechaConexao();
 
@@ -220,24 +220,28 @@ namespace TriNote
                 // dataAdapter = new SqlDataAdapter();
                 // dataSet = new DataSet();
 
-                conexao = new Conexao();
-                conexao.conectar();
-
-                if (tipoChat == 1)
+                if (tipoChat != 3)
                 {
-                    conexao.command.CommandText = "update Solicitacao set emEspera = 0 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
-                    conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
-                    conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
-                }
-                else
-                {
-                    conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = null where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
-                    conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
-                    conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
-                }
+                    conexao = new Conexao();
+                    conexao.conectar();
 
-                conexao.command.ExecuteNonQuery();
-                conexao.fechaConexao();
+                    if (tipoChat == 1)
+                    {
+                        conexao.command.CommandText = "update Solicitacao set emEspera = 0 where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
+                        conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
+                        conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
+                    }
+                    else if (tipoChat == 2)
+                    {
+                        conexao.command.CommandText = "update Solicitacao set dataHoraTerminoSol = '1990-01-01 00:00:00.000' where idUsuario=@idUsuario and idSolicitacao=@idSolicitacao";
+                        conexao.command.Parameters.Add("@idUsuario", SqlDbType.Int).Value = idUsuario;
+                        conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
+                    }
+
+                    conexao.command.ExecuteNonQuery();
+                    conexao.fechaConexao();
+
+                }
 
                 atualizarMensagens();
 
@@ -245,7 +249,7 @@ namespace TriNote
                 {
                     lstFilaEspera.Items.Remove(eachItem);
                 }
-            }           
+            }
 
         }
 
@@ -254,7 +258,7 @@ namespace TriNote
             // MessageBox.Show("idUsuario= " + idUsuario + "idSolicitacao= " +idSolicitacao);
             nomeUsuario = lstEmAtendimento.SelectedItems[0].SubItems[0].Text;
             idSolicitacao = Convert.ToInt32(lstEmAtendimento.SelectedItems[0].SubItems[2].Text);
-            
+
             conexao = new Conexao();
             conexao.conectar();
             conexao.command.CommandText = "select * from Mensagem where idSolicitacao=@idSolicitacao order by dataHoraMensagem";
@@ -274,7 +278,7 @@ namespace TriNote
             horaAtual = DateTime.Now;
             horaAtualSql = horaAtual.ToString("yyyy-MM-dd HH:mm:ss.fff");
 
-            if (DialogResult.Yes == MessageBox.Show("Este chat gerou chamado?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2)) 
+            if (DialogResult.Yes == MessageBox.Show("Este chat gerou chamado?", "Confirmação", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
             {
                 MessageBox.Show("Você poderá visualizar esta conversa na aba de 'Chamados'.", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -319,10 +323,10 @@ namespace TriNote
         {
             timer.Stop();
 
-            horaAtual = DateTime.Now;
+            horaAtual = DateTime.Now; 
             horaAtualSql = horaAtual.ToString("yyyy-MM-dd HH:mm:ss.fff");
 
-            if (tipoChat == 1)
+            if (tipoChat == 1 || tipoChat == 2)
             {
                 conexao = new Conexao();
                 conexao.conectar();

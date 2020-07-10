@@ -15,6 +15,7 @@ public class Conexao
     //string strConexao = "Server=trinoteserver-1.database.windows.net;DataBase=TriNoteTeste;user id=tnazureuser;password=5NTb3gkp";
     //string strConexao = "Server=localhost;DataBase=TriNoteTeste;user id=sa;password=etesp";
     //string strConexao = "Server=localhost;DataBase=TriNoteTeste;user id=sa;password=teste@123";
+    //string strConexao = "Server=trinotebd.database.windows.net;DataBase=Trinote;user id=TrinoteBd;password=b3@gk2040";
 
     public Conexao()
 	{

@@ -38,6 +38,7 @@ namespace TriNote
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             validarCampos();
+            validarSenhaForte();
             string senhaFuncionario = txtSenha.Text;
 
             if (valido == true)
@@ -71,6 +72,11 @@ namespace TriNote
 
             tipoPermissao = 0;
 
+        }
+
+        private void validarSenhaForte()
+        {
+            // Padrão da senha: 
         }
 
         private void validarCampos()
