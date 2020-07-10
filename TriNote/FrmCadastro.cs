@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace TriNote
 {
@@ -17,6 +18,7 @@ namespace TriNote
         int tipoPermissao;
         int qtdLoginIgual;
         Boolean valido = false;
+        Boolean validoSenhaForte = false;
         Criptografia criptografia = new Criptografia();
 
         Conexao conexao;
@@ -41,7 +43,7 @@ namespace TriNote
             validarSenhaForte();
             string senhaFuncionario = txtSenha.Text;
 
-            if (valido == true)
+            if (valido == true && validoSenhaForte == true)
             {
                 conexao = new Conexao();
                 conexao.conectar();
@@ -61,22 +63,59 @@ namespace TriNote
 
                 this.Close();
             }
-            else if (valido == false && qtdLoginIgual == 0)
+            else if (valido == false && validoSenhaForte == true && qtdLoginIgual == 0)
             {
                 MessageBox.Show("Um ou mais campos estão em branco.");
             }
-            else if (valido == false && qtdLoginIgual > 0)
+            else if (valido == false && validoSenhaForte == true && qtdLoginIgual > 0)
             {
                 MessageBox.Show("Login existente.");
             }
-
-            tipoPermissao = 0;
 
         }
 
         private void validarSenhaForte()
         {
-            // Padrão da senha: 
+            // Padrão da senha: 7 caracteres, letras e número e 1 caracter especial no mínimo
+            bool result = true;
+            validoSenhaForte = true;
+            string mensagemSenha = "Insira na senha no mínimo:";
+
+            if (txtSenha.Text.Length < 7)
+            {
+                mensagemSenha += "\n7 caracteres.";
+                validoSenhaForte = false;
+            }
+
+            result = Regex.IsMatch(txtSenha.Text, @"[a-zA-Z]");
+
+            if (result == false)
+            {
+                mensagemSenha += "\nUma letra.";
+                validoSenhaForte = false;
+            }
+
+            result = Regex.IsMatch(txtSenha.Text, @"[0-9]");
+
+            if (result == false)
+            {
+                mensagemSenha += "\nUm número.";
+                validoSenhaForte = false;
+            }
+
+            result = Regex.IsMatch(txtSenha.Text, @"[^\w\s]");
+
+            if (result == false)
+            {
+                mensagemSenha += "\nUm caracter especial.";
+                validoSenhaForte = false;
+            }
+
+            if(validoSenhaForte == false)
+            {
+                MessageBox.Show(mensagemSenha);
+            }
+
         }
 
         private void validarCampos()
