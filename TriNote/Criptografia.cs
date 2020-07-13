@@ -12,7 +12,7 @@ namespace TriNote
     {
         string senhaCripto = "";
         int tamanhoSenha = 0;
-        const string valor = " ";
+        const string valor = "!";
         const string valor2 = "~";
         byte[] valorByte = Encoding.ASCII.GetBytes(valor); // pegando os valores do primeiro caracter
         byte[] valorByte2 = Encoding.ASCII.GetBytes(valor2); // do último caracter válido
@@ -63,7 +63,7 @@ namespace TriNote
                 codigoCharSenha = Encoding.ASCII.GetBytes(charSenha);
                 bool result = Regex.IsMatch(charSenha, @".*[^\u0000-\u007F].*");
 
-                if (result == true)
+                if (result == true || result == Regex.IsMatch(charSenha, @"[^\u0020]"))
                 {
                     caracterValido = false;
                 }

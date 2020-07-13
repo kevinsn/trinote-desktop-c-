@@ -11,11 +11,11 @@ public class Conexao
     public SqlDataReader reader;
     public String sql;
     //string strConexao = "Server=localhost;DataBase=TriNoteTeste;trusted_connection=true";
-    string strConexao = "Server=TriNote.mssql.somee.com;DataBase=TriNote;user id=Brunno19_SQLLogin_1;password=nv3avw4tzp";
+    //string strConexao = "Server=TriNote.mssql.somee.com;DataBase=TriNote;user id=Brunno19_SQLLogin_1;password=nv3avw4tzp";
     //string strConexao = "Server=trinoteserver-1.database.windows.net;DataBase=TriNoteTeste;user id=tnazureuser;password=5NTb3gkp";
     //string strConexao = "Server=localhost;DataBase=TriNoteTeste;user id=sa;password=etesp";
     //string strConexao = "Server=localhost;DataBase=TriNoteTeste;user id=sa;password=teste@123";
-    //string strConexao = "Server=trinotebd.database.windows.net;DataBase=Trinote;user id=TrinoteBd;password=b3@gk2040";
+    string strConexao = "Server=trinotebd.database.windows.net;DataBase=Trinote;user id=TrinoteBd;password=b3@gk2040";
 
     public Conexao()
 	{
