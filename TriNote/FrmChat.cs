@@ -149,7 +149,7 @@ namespace TriNote
         {
             conexao = new Conexao();
             conexao.conectar();
-            conexao.command.CommandText = "select * from Mensagem where idSolicitacao=@idSolicitacao order by dataHoraMensagem";
+            conexao.command.CommandText = "select * from Mensagem where idSolicitacao=@idSolicitacao order by idMensagem";
             conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
             conexao.command.ExecuteNonQuery();
 
@@ -261,7 +261,7 @@ namespace TriNote
 
             conexao = new Conexao();
             conexao.conectar();
-            conexao.command.CommandText = "select * from Mensagem where idSolicitacao=@idSolicitacao order by dataHoraMensagem";
+            conexao.command.CommandText = "select * from Mensagem where idSolicitacao=@idSolicitacao order by idMensagem";
             conexao.command.Parameters.Add("@idSolicitacao", SqlDbType.Int).Value = idSolicitacao;
             conexao.command.ExecuteNonQuery();
             conexao.fechaConexao();

@@ -40,7 +40,8 @@ namespace TriNote
                     codigoCharSenha = Encoding.ASCII.GetBytes(charSenha);
                     int a = valorByte[0] + valorByte2[0] - codigoCharSenha[0];
                     novoCharSenha = System.Text.ASCIIEncoding.Default.GetString(BitConverter.GetBytes(a));
-                    senhaCripto += charSenha.Replace(charSenha, novoCharSenha);                    
+                    senhaCripto += charSenha.Replace(charSenha, novoCharSenha);
+                    senhaCripto = senhaCripto.TrimEnd('\0');
                 }
             }
             else
@@ -63,6 +64,7 @@ namespace TriNote
                 codigoCharSenha = Encoding.ASCII.GetBytes(charSenha);
                 bool result = Regex.IsMatch(charSenha, @".*[^\u0000-\u007F].*");
 
+                // abaixo no if checando resultado alterior e se há espaço
                 if (result == true || result == Regex.IsMatch(charSenha, @"[^\u0020]"))
                 {
                     caracterValido = false;
